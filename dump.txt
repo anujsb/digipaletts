@@ -1,0 +1,729 @@
+import React from "react";
+import "./Services.css";
+
+const ServiceCard = ({ index }) => (
+  <div className="w-80 h-96 mt-4">
+    <div className="w-56 h-80 m-8 bg-white rounded-2xl relative">
+      <div
+        className="absolute justify-center tri-right"
+        style={{
+          content: 'url(https://www.srvmedia.com/wp-content/uploads/2023/08/previous.webp)'
+        }}
+      ></div>
+      <div
+        className="absolute justify-center tri-left"
+        style={{
+          content: 'url(https://www.srvmedia.com/wp-content/uploads/2023/08/next.webp)'
+        }}
+      ></div>
+      <h1>{index}</h1>
+    </div>
+  </div>
+);
+
+const Services = () => (
+  <div className="w-full h-auto bg-slate-300 rounded-3xl">
+    <div>
+      <h1>Solutions That Drive Results</h1>
+    </div>
+    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4">
+      {[1, 2, 3, 4].map((index) => (
+        <ServiceCard key={index} index={index} />
+      ))}
+    </div>
+    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4 mt-8">
+      {[1, 2, 3, 4].map((index) => (
+        <ServiceCard key={index} index={index} />
+      ))}
+    </div>
+  </div>
+);
+
+export default Services;
+
+
+========================================================================================================================
+========================================================================================================================
+========================================================================================================================
+========================================================================================================================
+
+
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  /* color: rgba(255, 255, 255, 0.87); */
+  /* background-color: #242424; */
+  /* background-color: #000000; */
+  /* background-color: #282941; */
+  /* background-color: #090816; */
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  scroll-behavior: smooth;
+
+  padding: 0rem;
+}
+
+a {
+  font-weight: 500;
+  /* color: #646cff; */
+  text-decoration: inherit;
+}
+a:hover {
+  /* color: #535bf2; */
+}
+
+/* body {
+  margin: 0;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+} */
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  /* background-color: #1a1a1a; */
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
+
+
+.black-gradient {
+  background: #000000; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #434343,
+    #000000
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #434343,
+    #000000
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.bg-hero{
+  /* background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%); */
+
+  
+  /* background-image: url('/y10.png'); */
+  
+  /* background-image: url('/darkbg.png'); */
+  /* background-image: url('/darkbg1.png'); */
+  /* background-image: url('/darkbg2.png'); */
+  /* background-image: url('/darkbg3.png'); */
+  /* background-image: url('/darkbg5.png'); */
+  background-size: cover;
+  background-position: center;
+  /* background-attachment: fixed; */
+  /* width: 98.7vw; */
+  /* width: 100%;  */
+  /* height: 100vh; */
+  position: relative; /*not needed i guess*/
+  /* overflow: hidden; */
+  /* display: flex; */
+  /* flex-direction: column; */
+  background: rgb(251,247,226);
+background: linear-gradient(180deg, rgb(251,247,226) 0%, rgb(255,193,0) 100%);
+}
+
+.bg-ser{
+  background-image: url('/s2.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  width: 100%; 
+  
+  
+}
+
+
+
+
+.logo {
+  
+  width: 200px; /* Set the width of the logo */
+  height: 50px; /* Set the height of the logo */
+  display: block; /* Make sure it's a block-level element */
+  margin: 10px; /* Add some margin to provide space around the logo */
+  /* Add any other styling properties you need */
+}
+
+
+
+
+
+.card {
+  max-height: 300px;
+  min-height: 300px;
+  /* background-color: #28354d; */
+  background-color: transparent;
+  border: 1px solid rgba(227, 164, 164, 0.08);
+  border-radius: 24px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 32px;
+  position: relative;
+  overflow: hidden;
+  flex: 1;
+  position: relative;
+  margin: 5px;
+  /* margin-inline-start: 20px; */
+}
+
+.card-int{
+  max-height: 300px;
+  min-height: 200px;
+  border: 1px solid rgba(227, 164, 164, 0.08);
+  background-color: #000000;
+  border-radius: 24px;
+  margin-left: 100px;
+}
+
+.bot1{
+  background-image: url('/bot1.png');
+  background-size: cover;
+  /* background-position: center; */
+  /* background-attachment: fixed; */
+  background-position: 130px;
+  /* width: 100vw; */
+  height: 100vh;
+  background-repeat: no-repeat;
+}
+
+.bot2{
+  background-image: url('/bot2.png');
+  /* background-size: cover; */
+  background-size: 400px;
+  /* background-position-y: 40px; */
+  background-repeat: no-repeat;
+  /* background-position: center; */
+  /* background-attachment: fixed; */
+  /* background-position: 130px; */
+  width: 100vw;
+  height: 100vh;
+}
+
+
+@font-face {
+  font-family: 'durer';
+  src: url('fonts/durer-webfont.woff2') format('woff2'),
+       url('fonts/durer-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+:root {
+  --font-primary: durer;
+  --color-bg: #6e7570;
+}
+
+
+body {
+  background-color: var(--color-bg);
+  font-size: 1vw;
+  margin: 0;
+  
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #FFC100;
+  overflow-x: hidden;
+}
+
+
+.info{
+  font-family: var(--font-primary);
+  color: white;
+  /* font-size: 1em; */
+  font-size: 20px;
+  z-index: 1;
+  margin: 0;
+  white-space: nowrap;
+  margin-top: auto;
+  transition: all 2s ease-in-out;
+}
+
+
+
+
+
+@keyframes circularAnimation {
+  0% {
+      transform: translate(-50%, -50%) scale(0);
+      opacity: 0;
+      border-radius: 50%;
+
+  }
+  100% {
+      transform: translate(-50%, -50%) scale(1);
+      opacity: 1;
+      
+  }
+}
+
+
+========================================================================================================================
+========================================================================================================================
+========================================================================================================================
+========================================================================================================================
+
+
+
+hero dump 
+
+
+
+// import React, { useState } from 'react';
+// import { BsChevronCompactLeft, BsChevronCompactRight } from 'react-icons/bs';
+// import { IoIosArrowDropright } from "react-icons/io";
+// // import { RxDotFilled } from 'react-icons/rx';
+
+// const Hero = () => {
+//   const slides = [
+//     {
+//       url: 'https://images.unsplash.com/photo-1531297484001-80022131f5a1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2620&q=80',
+//       text: 'First Image Text',
+//     },
+//     {
+//       url: 'https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2670&q=80',
+//       text: 'Second Image Text',
+//     },
+//     {
+//       url: 'https://images.unsplash.com/photo-1661961112951-f2bfd1f253ce?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2672&q=80',
+//       text: 'Third Image Text',
+//     },
+//     {
+//       url: 'https://images.unsplash.com/photo-1512756290469-ec264b7fbf87?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2253&q=80',
+//       text: 'Fourth Image Text',
+//     },
+//     {
+//       url: 'https://images.unsplash.com/photo-1496181133206-80ce9b88a853?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2671&q=80',
+//       text: 'Fifth Image Text',
+//     },
+//   ];
+
+
+//   const text = [
+//     {
+//       url: 'https://images.unsplash.com/photo-1531297484001-80022131f5a1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2620&q=80',
+//       text: 'First Image Text',
+//     },
+//     {
+//       url: 'https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2670&q=80',
+//       text: 'Second Image Text',
+//     },
+//     {
+//       url: 'https://images.unsplash.com/photo-1661961112951-f2bfd1f253ce?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2672&q=80',
+//       text: 'Third Image Text',
+//     },
+//     {
+//       url: 'https://images.unsplash.com/photo-1512756290469-ec264b7fbf87?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2253&q=80',
+//       text: 'Fourth Image Text',
+//     },
+//     {
+//       url: 'https://images.unsplash.com/photo-1496181133206-80ce9b88a853?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2671&q=80',
+//       text: 'Fifth Image Text',
+//     },
+//   ];
+
+//   const [currentIndex, setCurrentIndex] = useState(0);
+
+//   const prevSlide = () => {
+//     const isFirstSlide = currentIndex === 0;
+//     const newIndex = isFirstSlide ? slides.length - 1 : currentIndex - 1;
+//     setCurrentIndex(newIndex);
+//   };
+
+//   const nextSlide = () => {
+//     const isLastSlide = currentIndex === slides.length - 1;
+//     const newIndex = isLastSlide ? 0 : currentIndex + 1;
+//     setCurrentIndex(newIndex);
+//   };
+  
+
+//   // return (
+//   //   // <div className='flex-auto absolute group h-screen w-full top-0 left-0 max-w-screen-xl mx-auto'>
+//   //   <div className='max-w-screen-xl px-8 xl:px-16 mx-auto'>
+//   //     <div
+//   //       style={{
+//   //         backgroundImage: `url(${slides[currentIndex].url})`
+//   //       }}
+        
+//   //       className='w-full h-full rounded-2xl bg-center bg-cover duration-500 '
+//   //     >
+//   //     </div>
+
+//   //     {/* <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white text-4xl font-bold duration-500">
+//   //         {text[currentIndex].text}
+//   //     </div> */}
+
+//   //     {/* Left Arrow */}
+//   //     <div className='hidden group-hover:block absolute top-[50%] -translate-x-0 translate-y-[-50%] left-5 text-2xl rounded-full p-2 bg-black/20 text-white cursor-pointer'>
+//   //       <BsChevronCompactLeft onClick={prevSlide} size={70} />
+//   //     </div>
+
+//   //     {/* Right Arrow */}
+//   //     <div className='hidden group-hover:block absolute top-[50%] -translate-x-0 translate-y-[-50%] right-5 text-2xl rounded-full p-2 bg-black/20 text-white cursor-pointer'>
+//   //       <BsChevronCompactRight onClick={nextSlide} size={70} />
+//   //     </div>
+
+//   //     {/* Uncomment the following section if you want to add navigation dots */}
+//   //     {/* <div className='flex top-4 justify-center py-2'>
+//   //       {slides.map((slide, slideIndex) => (
+//   //         <div
+//   //           key={slideIndex}
+//   //           onClick={() => setCurrentIndex(slideIndex)}
+//   //           className='text-2xl cursor-pointer'
+//   //         >
+//   //           <RxDotFilled />
+//   //         </div>
+//   //       ))}
+//   //     </div> */}
+//   //   </div>
+//   // );
+
+//   return(
+//     <div className='max-w-screen-xl px-8 xl:px-16 mx-auto'>
+//       hi
+//     </div>
+
+    
+//   )
+// };
+
+// export default Hero;
+
+// // animation: 'circularAnimation 2s ease-in-out forwards',
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+import React from "react";
+import videoBg from "../assets/videoBg.mp4"
+
+
+const Hero = () =>{
+
+    
+    return(
+        <div className='w-full h-screen'>
+            <div>
+                <div className="absolute top-0 left-0 w-full h-full bg-black bg-opacity-40 z-30" >
+                </div>
+                    <video className="absolute top-0 left-0 w-full h-full bg-black bg-opacity-40 object-cover" src={videoBg} autoPlay loop muted />
+                    <div className="absolute w-full h-full top-0 flex flex-col justify-center items-center text-white z-40">
+                        <h1>Digi palette</h1>
+                        <p>Market Your Business Every Day</p>
+                    </div>
+            </div>
+        </div>
+    )
+}
+
+
+export default Hero;
+
+
+
+// import logo from "./logo.svg";
+// import "./App.css";
+// import Carousel from "../assets/component";
+
+
+// const Hero = () =>{
+
+//     const slides = [
+//         "https://i.pinimg.com/originals/51/82/ac/5182ac536727d576c78a9320ac62de30.jpg",
+//         "https://wallpapercave.com/wp/wp3386769.jpg",
+//         "https://wallpaperaccess.com/full/809523.jpg",
+//         "https://getwallpapers.com/wallpaper/full/5/c/0/606489.jpg",
+//       ];
+      
+
+//     return(
+        
+
+//         <div className="bg-opacity-40">
+//             <div className="bg-opacity-40">
+//                 <div className="absolute top-0 left-0 w-full h-full bg-black bg-opacity-40 z-30">
+//                 <Carousel slides={slides} />
+//                 </div>
+//             </div>
+//         </div>
+//     )
+// }
+
+// export default Hero;
+
+
+
+========================================================================================================================
+========================================================================================================================
+========================================================================================================================
+========================================================================================================================
+========================================================================================================================
+
+Services ::))))))
+
+
+import React, {} from "react";
+import "./Services.css";
+
+
+
+
+const Services = () => {
+    return(
+        <div className="w-full h-auto bg-black rounded-3xl text-center">
+            <div className="">
+                <h1>Solutions That Drive Results</h1>
+            </div>
+            <div className="grid grid-cols-1 sm:grid-cols-2  md:grid-cols-4 h-auto ">
+                <div className="w-80 h-96">
+                {/* 152.500*309.896 */}
+                    <div className="w-56 h-80 m-8  rounded-2xl  text-black hover:text-white service-card">
+                        <div
+                            className=" absolute justify-center tri-right"
+                            style={{
+                                content: 'url(https://www.srvmedia.com/wp-content/uploads/2023/08/previous.webp)'
+                            }}
+                        
+                        >
+
+                        </div>
+                        <div
+                            className="absolute justify-center tri-left"
+                            style={{
+                                content: 'url(https://www.srvmedia.com/wp-content/uploads/2023/08/next.webp)'
+                            }}
+                        >
+                        </div>
+                        <h1>1</h1>
+
+
+                    </div>
+                    
+                </div>
+                <div className=" md:mt-48 sm:m-0 w-80 h-96">
+                    <div className="w-56 h-80 m-8  rounded-2xl  text-black hover:text-white service-card ">
+                    <div
+                            className=" absolute justify-center tri-right"
+                            style={{
+                                content: 'url(https://www.srvmedia.com/wp-content/uploads/2023/08/previous.webp)'
+                            }}
+                        
+                        >
+
+                        </div>
+                        <div
+                            className="absolute justify-center tri-left"
+                            style={{
+                                content: 'url(https://www.srvmedia.com/wp-content/uploads/2023/08/next.webp)'
+                            }}
+                        >
+                        </div>
+                        <h1>2</h1>
+                    </div>
+                </div>
+                <div className="w-80 h-96">
+                    <div className="w-56 h-80 m-8  rounded-2xl  text-black hover:text-white service-card ">
+                    <div
+                            className=" absolute justify-center tri-right"
+                            style={{
+                                content: 'url(https://www.srvmedia.com/wp-content/uploads/2023/08/previous.webp)'
+                            }}
+                        
+                        >
+
+                        </div>
+                        <div
+                            className="absolute justify-center tri-left"
+                            style={{
+                                content: 'url(https://www.srvmedia.com/wp-content/uploads/2023/08/next.webp)'
+                            }}
+                        >
+                        </div>
+                        <h1>3</h1>
+                    </div>
+                </div>
+                <div className="mt-48   w-80 h-96">
+                    <div className="w-56 h-80 m-8  rounded-2xl  text-black hover:text-white service-card ">
+                    <div
+                            className=" absolute justify-center tri-right"
+                            style={{
+                                content: 'url(https://www.srvmedia.com/wp-content/uploads/2023/08/previous.webp)'
+                            }}
+                        
+                        >
+
+                        </div>
+                        <div
+                            className="absolute justify-center tri-left"
+                            style={{
+                                content: 'url(https://www.srvmedia.com/wp-content/uploads/2023/08/next.webp)'
+                            }}
+                        >
+                        </div>
+                        <h1>4</h1>
+                    </div>
+                </div>
+            </div>
+
+
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 h-auto">
+                <div className="w-80 h-96">
+                {/* 152.500*309.896 */}
+                    <div className="w-56 h-80 m-8  rounded-2xl  text-black hover:text-white service-card ">
+                        <div
+                            className=" absolute justify-center tri-right"
+                            style={{
+                                content: 'url(https://www.srvmedia.com/wp-content/uploads/2023/08/previous.webp)'
+                            }}
+                        
+                        >
+
+                        </div>
+                        <div
+                            className="absolute justify-center tri-left"
+                            style={{
+                                content: 'url(https://www.srvmedia.com/wp-content/uploads/2023/08/next.webp)'
+                            }}
+                        >
+                        </div>
+                        <h1>5</h1>
+
+
+                    </div>
+                    
+                </div>
+                <div className=" md:mt-48 sm:m-0 w-80 h-96">
+                    <div className="w-56 h-80 m-8  rounded-2xl  text-black hover:text-white service-card ">
+                    <div
+                            className=" absolute justify-center tri-right"
+                            style={{
+                                content: 'url(https://www.srvmedia.com/wp-content/uploads/2023/08/previous.webp)'
+                            }}
+                        
+                        >
+
+                        </div>
+                        <div
+                            className="absolute justify-center tri-left"
+                            style={{
+                                content: 'url(https://www.srvmedia.com/wp-content/uploads/2023/08/next.webp)'
+                            }}
+                        >
+                        </div>
+                        <h1>6</h1>
+                    </div>
+                </div>
+                <div className="w-80 h-96">
+                    <div className="w-56 h-80 m-8  rounded-2xl  text-black hover:text-white service-card ">
+                    <div
+                            className=" absolute justify-center tri-right"
+                            style={{
+                                content: 'url(https://www.srvmedia.com/wp-content/uploads/2023/08/previous.webp)'
+                            }}
+                        
+                        >
+
+                        </div>
+                        <div
+                            className="absolute justify-center tri-left"
+                            style={{
+                                content: 'url(https://www.srvmedia.com/wp-content/uploads/2023/08/next.webp)'
+                            }}
+                        >
+                        </div>
+                        <h1>7</h1>
+                    </div>
+                </div>
+                <div className="mt-48   w-80 h-96">
+                    <div className="w-56 h-80 m-8  rounded-2xl  text-black hover:text-white service-card ">
+                    <div
+                            className=" absolute justify-center tri-right"
+                            style={{
+                                content: 'url(https://www.srvmedia.com/wp-content/uploads/2023/08/previous.webp)'
+                            }}
+                        
+                        >
+
+                        </div>
+                        <div
+                            className="absolute justify-center tri-left"
+                            style={{
+                                content: 'url(https://www.srvmedia.com/wp-content/uploads/2023/08/next.webp)'
+                            }}
+                        >
+                        </div>
+                        <h1>8</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    )
+}
+
+
+export default Services;
+// w-80 h-96
