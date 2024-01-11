@@ -1,0 +1,44 @@
+/* Services.css */
+@media (min-width: 640px) {
+    /* Styles for screens wider than 640px (sm) */
+    .grid-cols-1 {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+  }
+  
+  @media (min-width: 768px) {
+    /* Styles for screens wider than 768px (md) */
+    .grid-cols-1 {
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+    }
+  }
+  
+  /* Add more media queries and styles as needed */
+
+  
+
+
+  .tri-right{
+    padding-left: 204px;
+    padding-top: 150px;
+  }
+  
+  .tri-left{
+    padding-left: 0px;
+    padding-top: 150px;
+  }
+
+  .service-card {
+    background-color: white; /* Set the initial background color */
+    transition: background-color 0.2s ease, box-shadow 0.3s ease; /* Add box-shadow to the transition properties */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add box shadow to the service-card */
+  }
+  
+  /* Add this class for the hover effect with transition delay */
+  .service-card:hover {
+    background-color: #DA1F26; /* Set the hover background color */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Increase box shadow on hover */
+    transition-delay: 0.1s; /* Set the delay for the transition */
+  }
+  
+  
