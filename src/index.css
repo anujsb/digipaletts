@@ -171,8 +171,8 @@ button:focus-visible {
 .item{
   width:200px;
   /* width: 100%; */   /*card overlap */
-  /* height:300px; */  
-  height: auto;   /* no card */
+  height:300px;  
+  /* height: auto;   no card */
   background-position: 50% 50%;
   display: inline-block;
   transition: 0.5s;
@@ -183,6 +183,15 @@ button:focus-visible {
   transform: translate(0,-50%);
   border-radius: 20px;
   box-shadow:  0 30px 50px #505050;
+}
+@media (max-width: 767px) {
+  /* Override the height for mobile view */
+  .item {
+    width: fit-content;
+    overflow-x: hidden;
+    
+    
+  }
 }
 
 

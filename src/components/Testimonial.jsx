@@ -10,15 +10,15 @@ const Testimonial = () => {
             <h2 className="mt-4 text-3xl font-bold text-gray-900 sm:text-4xl xl:text-5xl font-pj">Our happy clients say about us</h2>
           </div>
 
-
-          <div>
+    
+          <div className="m-10">
             {/* <div className="inset-x-1 inset-y-16 md:-inset-x-2 md:-inset-y-6">
               <div className="w-full h-full max-w-5xl mx-auto rounded-3xl opacity-30 blur-lg filter test-bg"></div>
             </div> */}
 
 
             <div className="flex flex-col overflow-hidden shadow-xl test-bg">
-              <div className="flex flex-col justify-between flex-1 p-6 bg-white lg:py-8 lg:px-7 test-bg">
+              <div className="flex flex-col justify-between flex-1 p-6 bg-white lg:py-8 lg:px-7 m-1 ">
                 <div className="flex-1">
                   <div className="flex items-center">   {/* stars  */}
                     <svg className="w-5 h-5 text-[#FDB241]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
