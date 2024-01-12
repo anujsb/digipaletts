@@ -17,13 +17,13 @@ const Info = () => {
   return (
     <div>
         <div className="slider w-full">
-            <div className="slide-track">
+            {/* <div className="slide-track">
                 {imageUrls.map((imageUrl, index) => (
                 <div className="slide" key={index}>
                     <img src={imageUrl} height="100" width="250" alt="" />
                 </div>
                 ))}
-            </div>
+            </div> */}
         </div>
     </div>
   );
