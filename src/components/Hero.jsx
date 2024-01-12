@@ -16,10 +16,7 @@ const Hero = () => {
   };
 
   useEffect(() => {
-    // Automatically slide every 2 seconds
-    const intervalId = setInterval(handleNext, 2000);
-
-    // Cleanup the interval on component unmount
+    const intervalId = setInterval(handleNext, 4000);
     return () => clearInterval(intervalId);
   }, []);
 

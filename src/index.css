@@ -163,13 +163,16 @@ button:focus-visible {
 }
 
 #slide{
-  width:max-content;
+  /* width:max-content; */
+  width: 100%;
   margin-top:50px;
 }
 
 .item{
   width:200px;
-  height:300px;
+  /* width: 100%; */   /*card overlap */
+  /* height:300px; */  
+  height: auto;   /* no card */
   background-position: 50% 50%;
   display: inline-block;
   transition: 0.5s;
@@ -254,13 +257,7 @@ button:focus-visible {
 
 
 /* ---------------------------------------------------------------------------------------------------- */
-/* testimonial section */
-
-
-.test-bg {
-  background: linear-gradient(90deg, #44ff9a -0.55%, #44b0ff 22.86%, #8b44ff 48.36%, #ff6644 73.33%, #ebff70 99.34%);
-}
-
+/* serv section */
 .bg-ser{
   /* background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%); */
 
@@ -286,3 +283,87 @@ button:focus-visible {
 background: linear-gradient(0deg, rgb(255, 255, 255) 0%, rgb(255,193,0) 100%);
 }
 
+/* ---------------------------------------------------------------------------------------------------- */
+/* testimonial section */
+
+
+.test-bg {
+  background: linear-gradient(90deg, #44ff9a -0.55%, #44b0ff 22.86%, #8b44ff 48.36%, #ff6644 73.33%, #ebff70 99.34%);
+}
+
+
+/* ---------------------------------------------------------------------------------------------------- */
+/* info section */
+
+/* Base styles for the slider */
+.slider {
+  background: white;
+  box-shadow: 0 10px 20px -5px rgba(0, 0, 0, .125);
+  height: 100px;
+  margin: auto;
+  overflow: hidden;
+  position: relative;
+  width: 100%; /* Set width to 100% for responsiveness */
+}
+
+/* Styles for the gradient overlays */
+.slider::before,
+.slider::after {
+  background: linear-gradient(to right, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%);
+  content: "";
+  height: 100px;
+  position: absolute;
+  width: 20%; /* Set width to 20% for responsiveness */
+  z-index: 2;
+}
+
+.slider::after {
+  right: 0;
+  top: 0;
+  transform: rotateZ(180deg);
+}
+
+.slider::before {
+  left: 0;
+  top: 0;
+}
+
+/* Styles for the slide track */
+.slide-track {
+  animation: scroll 40s linear infinite;
+  display: flex;
+  width: calc(250px * 14);
+}
+
+/* Styles for individual slides */
+.slide {
+  height: 100px;
+  width: 250px;
+}
+
+/* Keyframes for the scrolling animation */
+@keyframes scroll {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(calc(-250px * 7)); }
+}
+
+/* Media query for screens smaller than 768px */
+@media screen and (max-width: 768px) {
+  .slider {
+    height: 70px; /* Adjust height for smaller screens if needed */
+  }
+
+  .slider::before,
+  .slider::after {
+    width: 30%; /* Adjust width for smaller screens if needed */
+  }
+
+  .slide {
+    width: 150px; /* Adjust width for smaller screens if needed */
+  }
+
+  @keyframes scroll {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(calc(-150px * 7)); }
+  }
+}
