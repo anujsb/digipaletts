@@ -8,7 +8,8 @@ import Services from './components/Services';
 import Testimonial from './components/Testimonial';
 import Footer  from './components/Footer';
 import Faq from './components/Faq';
-
+import Blog from './components/Blog';
+  
 function App() {
 
   return (
@@ -16,9 +17,10 @@ function App() {
     
       <div className=''>
       <Navbar/>
-        <Hero/>
-        {/* <Info /> */}
+        {/* <Hero/> */}
+        <Info />
         <Services />
+        <Blog/>
         <Testimonial/>
         <Faq />
         <Footer />

@@ -727,3 +727,43 @@ const Services = () => {
 
 export default Services;
 // w-80 h-96
+
+
+
+
+
+
+// https://www.landingfolio.com/library/feature/react?id=61b555829264fc4a988a211d&tab=code
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div
+                            className=" absolute justify-center tri-right"
+                            style={{
+                                content: 'url(https://www.srvmedia.com/wp-content/uploads/2023/08/previous.webp)'
+                            }}
+                        
+                        >
+
+                        </div>
+                        <div
+                            className="absolute justify-center tri-left"
+                            style={{
+                                content: 'url(https://www.srvmedia.com/wp-content/uploads/2023/08/next.webp)'
+                            }}
+                        >
+                        </div>
