@@ -36,7 +36,7 @@ const Info = () => {
             <div>
                 <h2 className='m-10 text-4xl'>What made us decide to become 360-degree marketers?</h2>
             </div>
-            <p className='m-10 text-2xl'>
+            <p className='m-10 text-4xl'>
             Our  <span ref={typedRef}></span>
           </p>
 
