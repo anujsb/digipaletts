@@ -9,7 +9,7 @@ const servicesData = [
   { title: "Website and App Development", images: ["previous.webp", "next.webp"] },
   { title: "Branding", images: ["previous.webp", "next.webp"] },
   { title: "Graphic Designing", images: ["previous.webp", "next.webp"] },
-  { title: "Video Production", images: ["previous.webp", "next.webp"] },
+  { title: "Video Production", images: ["previous.webp", "next.webp"] },  
 ];
 
 const ServiceCard = ({ title, images }) => (
@@ -22,6 +22,9 @@ const ServiceCard = ({ title, images }) => (
       ></div>
     ))}
     <h3>{title}</h3>
+
+    <div>
+    </div>
   </div>
 );
 

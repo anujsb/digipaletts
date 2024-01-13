@@ -1,29 +1,45 @@
-import React from 'react';
-// import './YourComponent.css'; // Make sure to import your CSS file
+import React, { useEffect, useRef } from 'react';
+import Typed from 'typed.js';
+
 
 const Info = () => {
-//   const animationSpeed = '40s';
+    const typedRef = useRef(null);
 
-//   const imageUrls = [
-//     'https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/1.png',
-//     'https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/2.png',
-//     'https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/3.png',
-//     'https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/4.png',
-//     'https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/5.png',
-//     'https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/6.png',
-//     'https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/7.png',
-//   ];
+    useEffect(() => {
+    if (typedRef.current) {
+      const options = {
+        strings: [
+          'Websites.',
+          'Chat bots.',
+          'Automations.',
+        ],
+        typeSpeed: 50, // typing speed in milliseconds
+        backSpeed: 50, // backspacing speed in milliseconds
+        loop: true, // loop the animation
+      };
+      const typed = new Typed(typedRef.current, options);
+
+      // Cleanup on unmount
+      return () => {
+        typed.destroy();
+      };
+    }
+  }, []);
+
 
   return (
-    <div>
-        <div className=" w-full h-screen bg-info">
-            {/* <div className="slide-track">
-                {imageUrls.map((imageUrl, index) => (
-                <div className="slide" key={index}>
-                    <img src={imageUrl} height="100" width="250" alt="" />
-                </div>
-                ))}
-            </div> */}
+    <div className=" w-full h-screen bg-info">
+        <div className='p-20'>
+            <div >
+                <h1 className='m-10'>About Us</h1>
+            </div>
+            <div>
+                <h2 className='m-10 text-4xl'>What made us decide to become 360-degree marketers?</h2>
+            </div>
+            <p className='m-10 text-2xl'>
+            I grow your <span ref={typedRef}></span>
+          </p>
+
         </div>
     </div>
   );
