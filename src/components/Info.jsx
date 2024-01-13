@@ -9,9 +9,9 @@ const Info = () => {
     if (typedRef.current) {
       const options = {
         strings: [
-          'Websites.',
-          'Chat bots.',
-          'Automations.',
+          'Goals.',
+          'Inspiration.',
+          'Footer.',
         ],
         typeSpeed: 50, // typing speed in milliseconds
         backSpeed: 50, // backspacing speed in milliseconds
@@ -37,7 +37,7 @@ const Info = () => {
                 <h2 className='m-10 text-4xl'>What made us decide to become 360-degree marketers?</h2>
             </div>
             <p className='m-10 text-2xl'>
-            I grow your <span ref={typedRef}></span>
+            Our  <span ref={typedRef}></span>
           </p>
 
         </div>
