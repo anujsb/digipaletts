@@ -25,7 +25,7 @@ const Hero = () => {
     <div className="bg-black min-h-screen h-auto w-full">
       <div className="container mx-auto flex items-center justify-center h-full">
         <div id="slide" className="max-w-max-content mt-10">
-          <div className="item bg-cover bg-center w-72 h-96" style={{ backgroundImage: 'url(https://images.unsplash.com/photo-1496181133206-80ce9b88a853?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2671&q=80)' }}>
+          <div className="item bg-cover bg-center w-72 h-96" style={{ backgroundImage: 'url(https://i.postimg.cc/Kc3QkSJB/pexels-ksenia-chernaya-3965520.jpg)' }}>
             <div className="content">
               <div className="name text-4xl font-bold">title</div>
               <div className="des">
@@ -34,7 +34,7 @@ const Hero = () => {
               <button className="px-4 py-2">See more</button>
             </div>
           </div>
-          <div className="item bg-cover bg-center w-72 h-96" style={{ backgroundImage: 'url(https://images.unsplash.com/photo-1512756290469-ec264b7fbf87?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2253&q=80)' }}>
+          <div className="item bg-cover bg-center w-72 h-96" style={{ backgroundImage: 'url(https://i.postimg.cc/FRBWthGs/pexels-shvets-production-7195232.jpg)' }}>
             <div className="content">
               <div className="name text-4xl font-bold ">title</div>
               <div className="des ">
@@ -43,7 +43,7 @@ const Hero = () => {
               <button className="px-4 py-2 ">See more</button>
             </div>
           </div>
-          <div className="item bg-cover bg-center w-72 h-96" style={{ backgroundImage: 'url(https://images.unsplash.com/photo-1661961112951-f2bfd1f253ce?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2672&q=80)' }}>
+          <div className="item bg-cover bg-center w-72 h-96" style={{ backgroundImage: 'url(https://i.postimg.cc/Jnk6W9FN/pexels-jonathan-borba-14891568.jpg)' }}>
             <div className="content">
               <div className="name text-4xl font-bold ">title</div>
               <div className="des ">
@@ -52,7 +52,7 @@ const Hero = () => {
               <button className="px-4 py-2 ">See more</button>
             </div>
           </div>
-          <div className="item bg-cover bg-center w-72 h-96" style={{ backgroundImage: 'url(https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2670&q=80)' }}>
+          <div className="item bg-cover bg-center w-72 h-96" style={{ backgroundImage: 'url(https://i.postimg.cc/65jdYMjt/pexels-alena-shekhovtcova-8068004.jpg)' }}>
             <div className="content">
               <div className="name text-4xl font-bold">title</div>
               <div className="des">
@@ -61,7 +61,7 @@ const Hero = () => {
               <button className="px-4 py-2">See more</button>
             </div>
           </div>
-          <div className="item bg-cover bg-center w-72 h-96" style={{ backgroundImage: 'url(https://images.unsplash.com/photo-1531297484001-80022131f5a1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2620&q=80)' }}>
+          <div className="item bg-cover bg-center w-72 h-96" style={{ backgroundImage: 'url(https://i.postimg.cc/yd1xqHx5/pexels-sound-on-3756879.jpg)' }}>
             <div className="content">
               <div className="name text-4xl font-bold">title</div>
               <div className="des">
@@ -70,7 +70,7 @@ const Hero = () => {
               <button className="px-4 py-2">See more</button>
             </div>
           </div>
-          <div className="item bg-cover bg-center w-72 h-96" style={{ backgroundImage: 'url(https://images.unsplash.com/photo-1496181133206-80ce9b88a853?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2671&q=80)' }}>
+          <div className="item bg-cover bg-center w-72 h-96" style={{ backgroundImage: 'url(https://i.postimg.cc/dtrhTnb5/pexels-mikael-blomkvist-6476799.jpg)' }}>
             <div className="content">
               <div className="name text-4xl font-bold">title</div>
               <div className="des">

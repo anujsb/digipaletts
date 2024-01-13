@@ -17,7 +17,7 @@ function App() {
     
       <div className=''>
       <Navbar/>
-        {/* <Hero/> */}
+        <Hero/>
         <Info />
         <Services />
         <Blog/>
