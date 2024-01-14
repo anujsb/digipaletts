@@ -94,6 +94,7 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
+  /* flex-wrap: wrap; */
 }
 
 h1 {
@@ -473,4 +474,30 @@ background: linear-gradient(0deg, rgb(255, 255, 255) 0%, rgb(255,193,0) 100%);
     0% { transform: translateX(0); }
     100% { transform: translateX(calc(-150px * 7)); }
   }
+}
+
+/* ================================================================================ */
+
+
+
+.column {
+  box-sizing: border-box;
+  flex: 1;
+  padding: 20px;
+}
+
+.text-column {
+  background-color: #f0f0f0; /* optional background color for the text column */
+}
+
+.image-column {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.image-column img {
+  max-width: 100%;
+  height: auto;
 }
