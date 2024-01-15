@@ -96,7 +96,7 @@ const Navbar = () => {
             window.scrollTo({ top: 0, behavior: 'smooth' }); 
           }}
         >
-          <img src={logo} alt="logo" className="logo" />
+          <img src={logo} alt="logo" className="logo bg-black bg-opacity-50 m-2 rounded-lg" />
         </Link>
 
         

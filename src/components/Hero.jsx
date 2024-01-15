@@ -16,7 +16,7 @@ const Hero = () => {
   };
 
   useEffect(() => {
-    const intervalId = setInterval(handleNext, 4000);
+    const intervalId = setInterval(handleNext, 6000);
     return () => clearInterval(intervalId);
   }, []);
 

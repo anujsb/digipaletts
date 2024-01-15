@@ -21,7 +21,7 @@ const ServiceCard = ({ title, images }) => (
         style={{ content: `url(https://www.srvmedia.com/wp-content/uploads/2023/08/${image})` }}
       ></div>
     ))}
-    <h3>{title}</h3>
+    <h3 className="text-xl">{title}</h3>
 
     <div>
     </div>
@@ -29,7 +29,7 @@ const ServiceCard = ({ title, images }) => (
 );
 
 const Services = () => (
-  <div className="w-full h-auto bg-white rounded-3xl text-center">
+  <div className="w-full h-auto bg-[#FEFDFA] rounded-3xl text-center">
     <div>
       <h1 className="text-black">Services</h1>
     </div>
