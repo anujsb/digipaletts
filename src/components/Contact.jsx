@@ -1,4 +1,11 @@
+// import GoogleMap from 'react-google-maps';
+
 const Contact = () => {
+
+  // const [center, setCenter] = React.useState({
+  //   lat: 37.7833,
+  //   lng: -122.4167,
+  // });
     return (
       <>
         {/* <Menu /> */}
@@ -11,6 +18,7 @@ const Contact = () => {
                 width=""
                 className="object-contain scale-[1.75]  overflow-hidden w-1/2 "
               />
+              {/* <GoogleMap center={center} zoom={13}/> */}
             </div>
             <div
               data-aos="zoom-out"
@@ -31,7 +39,7 @@ const Contact = () => {
                       id="name"
                       className="bg-gray-50 border border-gray-300  sm:text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5    dark:border-gray-600 dark:placeholder-gray-400 text-black dark:focus:ring-blue-500 dark:focus:border-blue-500"
                       placeholder="Charles Coventry"
-                      required="true"
+                      required={true}
                     />
                   </div>
                   <div>
@@ -43,8 +51,8 @@ const Contact = () => {
                       name="compname"
                       id="compname"
                       className="bg-gray-50 border border-gray-300  sm:text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5  dark:border-gray-600 dark:placeholder-gray-400 text-black dark:focus:ring-blue-500 dark:focus:border-blue-500"
-                      placeholder="+91 1234567890"
-                      required="true"
+                      placeholder="ABC Pvt Ltd "
+                      required={false}
                     />
                   </div>
                   <div>
@@ -57,7 +65,7 @@ const Contact = () => {
                       id="email"
                       className="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5  dark:border-gray-600 dark:placeholder-gray-400  dark:focus:ring-blue-500 dark:focus:border-blue-500"
                       placeholder="name@company.com"
-                      required="true"
+                      required={true}
                     />
                   </div>
                   <div>
@@ -69,8 +77,8 @@ const Contact = () => {
                       name="contact"
                       id="contact"
                       className="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5  dark:border-gray-600 dark:placeholder-gray-400  dark:focus:ring-blue-500 dark:focus:border-blue-500"
-                      placeholder="ABC Pvt Ltd"
-                      required="true"
+                      placeholder="+91 1234567890"
+                      required={true}
                     />
                   </div>
                   <div>
@@ -84,7 +92,7 @@ const Contact = () => {
                       id="address"
                       className="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5  dark:border-gray-600 dark:placeholder-gray-400  dark:focus:ring-blue-500 dark:focus:border-blue-500"
                       placeholder="Pune"
-                      required="true"
+                      required={true}
                     />
                   </div>
                   <div className="flex items-start">
@@ -112,6 +120,7 @@ const Contact = () => {
                   {/* <Button type="submit" className="" fullWidth={true}>
                     Get Started
                   </Button> */}
+                  <button type="submit" className="inline-flex items-center justify-center px-6 py-4 mt-3 font-semibold text-white transition-all duration-200 bg-blue-600 rounded-md hover:bg-blue-700 focus:bg-blue-700">Submit</button>
 
 
 

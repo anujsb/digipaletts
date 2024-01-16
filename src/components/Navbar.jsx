@@ -1,63 +1,4 @@
-// import React, { useState, useEffect } from 'react';
-// import { Link, useNavigate  } from 'react-router-dom';
-// // import { logo } from '../assets/images';
 
-// const Navbar = () => {
-//   const [active, setActive] = useState(false);
-//   const navigate = useNavigate(); 
-
-//   useEffect(() => {
-//     const handleScroll = () => {
-//       setActive(window.scrollY > 20);
-//     };
-
-//     window.addEventListener('scroll', handleScroll);
-
-//     return () => {
-//       window.removeEventListener('scroll', handleScroll);
-//     };
-//   }, []);
-
-//   return (
-//     <nav
-//     className={`${
-//       active ? 'shadow-lg pt-0 backdrop-blur-md' : 'pt-3'
-//     } sm:px-4 lg:px-16 fixed top-0 w-full z-30`}
-//     >
-//       <div className="w-full flex justify-between items-center max-w-7xl mx-auto text-black">
-//         <Link
-//           to="/"
-//           className="flex items-center gap-2"
-//           onClick={() => {
-//             setActive(false);
-//             window.scrollTo({ top: 0, behavior: 'smooth' }); 
-//           }}
-//         >
-//           {/* <img src={logo} alt="logo" className="logo bg-slate-600 bg-opacity-30 rounded-full shadow-lg" /> */}
-//           logo
-//         </Link>
-
-
-//         <div className='flex items-center gap-2 bg-slate-600 bg-opacity-30 rounded-full shadow-lg border-b-2 '>
-//             <Link 
-//                 to="/Services"
-//                     >
-//                 <button className='border-none'>
-//                     Services
-//                 </button>
-//             </Link>
-//             <Link>
-//                 <button className='border-none'>
-//                     Contact
-//                 </button>
-//             </Link>
-//         </div>
-//       </div>
-//     </nav>
-//   );
-// };
-
-// export default Navbar;
 
 
 import { useState, useEffect } from 'react';
@@ -84,7 +25,7 @@ const Navbar = () => {
   return (
     <nav
     className={`${
-      active ? 'shadow-lg pt-0 backdrop-blur-md' : 'pt-3'
+      active ? 'shadow-lg pt-0 backdrop-blur-md' : 'pt-0.5'
     } sm:px-4 lg:px-16 fixed top-0 w-full z-30 `}
     >
       <div className="w-full flex justify-between items-center max-w-7xl mx-auto   ">
@@ -96,7 +37,7 @@ const Navbar = () => {
             window.scrollTo({ top: 0, behavior: 'smooth' }); 
           }}
         >
-          <img src={logo} alt="logo" className="logo bg-black bg-opacity-50 m-2 rounded-lg" />
+          <img src={logo} alt="logo" className="logo bg-black bg-opacity-50  rounded-lg" />
         </Link>
 
         

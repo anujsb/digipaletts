@@ -2,6 +2,9 @@
 
 // import React from 'react';
 import { useEffect } from 'react';
+import { SlArrowRight } from "react-icons/sl";
+import { SlArrowLeft } from "react-icons/sl";
+
 
 
 const Hero = () => {
@@ -22,7 +25,7 @@ const Hero = () => {
 
 
   return (
-    <div className="bg-black min-h-screen h-auto w-full">
+    <div className="bg-black min-h-screen h-auto w-full bg-info">
       <div className="container mx-auto flex items-center justify-center h-full">
         <div id="slide" className="max-w-max-content mt-10">
           <div className="item bg-cover bg-center w-72 h-96" style={{ backgroundImage: 'url(https://i.postimg.cc/P5VHyGb2/IMG-20240114-WA0009.jpg)' }}>
@@ -81,11 +84,17 @@ const Hero = () => {
           </div>
         </div>
         <div className="buttons absolute bottom-10 z-20 text-center w-full">
-          <button onClick={handlePrev} className="w-12 h-12 rounded-full border-2 border-gray-700 transition duration-500 hover:bg-green-500">
-            <i className="fas fa-angle-left"></i>
+          {/* <button onClick={handlePrev} className="w-12 h-12 rounded-full border-2 border-gray-700 transition duration-500 hover:bg-green-500"> */}
+          <button onClick={handlePrev} className="w-20 h-20   transition duration-500 ">
+            {/* <i className=" fa-angle-left"></i> */}
+            {/* <FontAwesomeIcon icon="fa-solid fa-angle-left" /> */}
+            <SlArrowLeft style={{ fontSize: '40px' }}/>
+
+            
           </button>
-          <button onClick={handleNext} className="w-12 h-12 rounded-full border-2 border-gray-700 transition duration-500 hover:bg-green-500">
-            <i className="fas fa-angle-right"></i>
+          <button onClick={handleNext} className="w-20 h-20   transition duration-500">
+            {/* <i className="fas fa-angle-right"></i> */}
+            <SlArrowRight style={{ fontSize: '40px' }}/>
           </button>
         </div>
       </div>
