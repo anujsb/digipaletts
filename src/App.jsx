@@ -19,7 +19,7 @@ function App() {
   return (
     <BrowserRouter>
       
-      <div className=''>
+      <div className='justify-center items-center'>
         <Navbar/>
         <Hero/>
         <Info />
