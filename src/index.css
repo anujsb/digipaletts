@@ -1,66 +1,16 @@
-
-
-/* =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-==-=-==-= */
-
-/* services */
-
-/* .tri-right{
-  padding-left: 204px;
-  padding-top: 150px;
-}
-
-.tri-left{
-  padding-left: 0px;
-  padding-top: 150px;
-}
-
-
-.service-card:hover {
-  background-color: red;
-} */
-
-/* ---------------------------------------------------------------------------------------------------- */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 
-
-
-
 html, body {
   max-width: 100%;
   overflow-x: hidden;
+}
+
+*{
+  justify-content: center;
+  align-items: center;
 }
 
 :root {

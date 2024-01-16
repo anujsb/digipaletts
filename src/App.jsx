@@ -13,6 +13,7 @@ import Blog from './components/Blog';
 import DigitalMarketing from "./components/Services/DigitalMarketing";
 import SocialMarketing from "./components/Services/SocialMarketing";
 import PaidAdvertising from "./components/Services/PaidAdvertising";
+import Overlaymenu from "./components/Extra/Overlaymenu";
 
 function App() {
 
@@ -32,6 +33,7 @@ function App() {
         {/* <DigitalMarketing /> */}
         {/* <SocialMarketing /> */}
         {/* <PaidAdvertising /> */}
+        {/* <Overlaymenu /> */}
         
         
         
