@@ -37,14 +37,14 @@ const Info = () =>{
           </div>
       </header> */}
   
-      <section className="bg-[#FCF8F1] bg-opacity-30 py-10 sm:py-16 lg:py-24">
+      <section className=" bg-opacity-30 py-10 sm:py-0 lg:py-24 sm:p-0">
           <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8 ">
-              <div className="items-center">
-                  <div className="mx-20 my-10">
+              <div className="items-center ">
+                  <div className="md:mx-20 md:my-10 sm:mx-20 sm:my-10 sm:p-0">
                       <p className="text-base font-semibold tracking-wider text-blue-600 uppercase">About Us</p>
                       <h1 className="mt-4 text-4xl font-bold text-black lg:mt-8 sm:text-6xl xl:text-8xl">Welcome To Digi Palettes</h1>
-                      <p className="mt-4 p-10 text-black lg:mt-8 sm:text-xl text text-xl subpixel-antialiased font-medium tracking-wide">Join Us On A Journey Where Passion Meets Expertise, And Let Digi Palettes Be The Brushstroke That Paints Your Business Success Story.</p>
-                      <p className="mt-4 px-10 text-base text-black lg:mt-8 sm:text-xl ">A Team Of Passionate Entrepreneurs, Digital Marketers, Artists, And Web Developers. In A Landscape Crowded With Digital Marketing Agencies, We Stand Out As A Rare Breed, Offering Genuine And Authentic Consultation.
+                      <p className="mt-4 md:p-10 sm:p-0 sm:my-5 text-black lg:mt-8 sm:text-xl text text-xl subpixel-antialiased font-medium tracking-wide">Join Us On A Journey Where Passion Meets Expertise, And Let Digi Palettes Be The Brushstroke That Paints Your Business Success Story.</p>
+                      <p className="md:mt-4 sm:px-0 md:px-10  sm:mt-10 text-base text-black lg:mt-8 sm:text-xl ">A Team Of Passionate Entrepreneurs, Digital Marketers, Artists, And Web Developers. In A Landscape Crowded With Digital Marketing Agencies, We Stand Out As A Rare Breed, Offering Genuine And Authentic Consultation.
                          Navigating The Intricacies Of Digital Marketing Can Be A Challenge, And Even Professionals May Find Themselves Unaware Of The Technicalities Involved. At Digi Palettes, We Are Committed To Not Only Guiding You Through The Process But Also Dedicated To Nurturing Your Business From Its Nascent Stages To A Fully Established Presence.</p>
   
                       <a href="#" title="" className="inline-flex items-center px-6 py-4 mt-8 font-semibold text-black transition-all duration-200 bg-yellow-300 rounded-full lg:mt-16 hover:bg-yellow-400 focus:bg-yellow-400" role="button">
