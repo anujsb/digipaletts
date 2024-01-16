@@ -25,7 +25,7 @@ const Hero = () => {
     <div className="bg-black min-h-screen h-auto w-full">
       <div className="container mx-auto flex items-center justify-center h-full">
         <div id="slide" className="max-w-max-content mt-10">
-          <div className="item bg-cover bg-center w-72 h-96" style={{ backgroundImage: 'url(https://i.postimg.cc/Kc3QkSJB/pexels-ksenia-chernaya-3965520.jpg)' }}>
+          <div className="item bg-cover bg-center w-72 h-96" style={{ backgroundImage: 'url(https://i.postimg.cc/P5VHyGb2/IMG-20240114-WA0009.jpg)' }}>
             <div className="content">
               <div className="name text-4xl font-bold">title</div>
               <div className="des">

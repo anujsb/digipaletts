@@ -13,12 +13,12 @@ const servicesData = [
 ];
 
 const ServiceCard = ({ title, images }) => (
-  <div className="w-56 h-80 m-8 rounded-2xl text-black hover:text-white service-card">
+  <div className="md:w-72 sm:w-96 h-44  my-8 mx-5 rounded-2xl text-black hover:text-white service-card">
     {images.map((image, index) => (
       <div
         key={index}
         className={`absolute justify-center tri-${index === 0 ? "right" : "left"}`}
-        style={{ content: `url(https://www.srvmedia.com/wp-content/uploads/2023/08/${image})` }}
+        // style={{ content: `url(https://www.srvmedia.com/wp-content/uploads/2023/08/${image})` }}
       ></div>
     ))}
     <h3 className="text-xl">{title}</h3>
@@ -29,11 +29,11 @@ const ServiceCard = ({ title, images }) => (
 );
 
 const Services = () => (
-  <div className="w-full h-auto bg-[#FEFDFA] rounded-3xl text-center">
+  <div className="w-full h-auto bg-[#FEFDFA] rounded-3xl text-center ">
     <div>
       <h1 className="text-black">Services</h1>
     </div>
-    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 h-auto">
+    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 h-auto  ">
       {servicesData.map((service, index) => (
         <ServiceCard key={index} {...service} />
       ))}

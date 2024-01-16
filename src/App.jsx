@@ -18,7 +18,7 @@ function App() {
 
   return (
     <BrowserRouter>
-    
+      
       <div className=''>
         <Navbar/>
         <Hero/>
@@ -46,3 +46,4 @@ function App() {
 }
 
 export default App
+

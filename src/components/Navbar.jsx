@@ -85,9 +85,9 @@ const Navbar = () => {
     <nav
     className={`${
       active ? 'shadow-lg pt-0 backdrop-blur-md' : 'pt-3'
-    } sm:px-4 lg:px-16 fixed top-0 w-full z-30`}
+    } sm:px-4 lg:px-16 fixed top-0 w-full z-30 `}
     >
-      <div className="w-full flex justify-between items-center max-w-7xl mx-auto  ">
+      <div className="w-full flex justify-between items-center max-w-7xl mx-auto   ">
         <Link
           to="/"
           className="flex items-center gap-2 "

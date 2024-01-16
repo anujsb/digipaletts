@@ -1,46 +1,42 @@
-import dm from "../../assets/dm.jpg";
-
-const DigitalMarketing = () => {
+import React from "react";
 
 
-  return (
-    <div className='max-w-screen-xl h-screen min-w-full w-full  mx-auto bg '>
-        <div className="grid grid-flow-row sm:grid-flow-col grid-rows-2 md:grid-rows-1 sm:grid-cols-2 min-w-full " >
-            <div className=" w-full p-10  bg-orange-600">
-                <h1 className="text-3xl lg:text-4xl xl:text-5xl font-medium text-black-600 leading-normal ">
-                    Digital Marketing
-                </h1>
-                <p className=" pt-10">
-                Everyone is going digital, so should your business, because your clients are searching for you online.
-                </p>
-            </div>
-        
-            <div className="flex w-full ml-0">
-                <div className="h-full w-full ml-0 ">
-                    <img src={dm} />
-                </div>
-            </div>
-        </div>
-        <div className="grid grid-flow-row sm:grid-flow-col grid-rows-2 md:grid-rows-1 sm:grid-cols-2 min-w-full " >
-            <div className="flex w-full ml-0">
-                <div className="h-full w-full ml-0 ">
-                    <img src={dm} />
-                </div>
-            </div>
-            <div className=" w-full p-10  bg-orange-600">
-                <h1 className="text-3xl lg:text-4xl xl:text-5xl font-medium text-black-600 leading-normal ">
-                    Digital Marketing
-                </h1>
-                <p className=" pt-10">
-                Everyone is going digital, so should your business, because your clients are searching for you online.
-                </p>
-            </div>
-        </div>
-    </div>
-  );
+const DigitalMarketing = () =>{
+
+    return(
+    <div className=" bg- bg-yellow-300">
+      
+      <section className=" h-screen">
+          <div className=" mx-auto max-w-7xl ">
+              <div className="grid items-center grid-cols-1 gap-12 lg:grid-cols-2">
+                  <div className="px-4 sm:px-6 lg:px-8">
+                      <p className="text-base font-semibold tracking-wider text-blue-600 uppercase">digipalettes</p>
+                      <h1 className="mt-4 text-4xl font-bold text-black lg:mt-8 sm:text-6xl xl:text-8xl">Digital Marketing </h1>
+                      <p className="mt-4 text-base text-black lg:mt-8 sm:text-xl">Everyone is going digital, so should your business, because your clients are searching for you online.</p>
+                  </div>
+  
+                  <div>
+                      <img className="w-full" src="https://i.postimg.cc/85fHHgxT/dm.jpg" alt="" />
+                  </div>
+              </div>
+              <div className="grid items-center bg-yellow-300 ">
+                  
+  
+                  <div>
+                      {/* <img className="w-full" src="https://i.postimg.cc/85fHHgxT/dm.jpg" alt="" /> */}
+                  </div>
+
+                  <div className="p-10 m-10  sm:p-6 lg:p-8">
+                      {/* <p className="text-base font-semibold tracking-wider text-blue-600 uppercase">digipalettes</p> */}
+                      {/* <h1 className="mt-4 text-4xl font-bold text-black lg:mt-8 sm:text-6xl xl:text-8xl">Digital Marketing </h1> */}
+                      <p className="mt-4 text-base text-black lg:mt-8 sm:text-xl">Whether you run a small business or a big company, we're here to help your online presence grow. We've got the skills and tools to make sure you succeed online. Our team can boost your visibility using strategies like digital marketing, SEO, and social media. We don't just get you noticed but  we help you stand out from the competition and build strong connections with your customers. Let us be your partner in navigating the online world and achieving success in a simple and effective way.</p>
+                  </div>
+              </div>
+          </div>
+      </section>
+  </div>
+  
+    )
 }
+
 export default DigitalMarketing;
-
-
-
-{/* <Spline scene="https://prod.spline.design/7rm-4CyhD5HvSSvz/scene.splinecode" /> */}
