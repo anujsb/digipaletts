@@ -28,7 +28,7 @@ const Navbar = () => {
       active ? 'shadow-lg pt-0 backdrop-blur-md' : ''
     } sm:px-4 lg:px-16 fixed top-0 w-full z-30  `}
     >
-      <div className="w-full flex justify-between items-center max-w-7xl mx-auto my-3  ">
+      <div className="w-full flex justify-between items-center max-w-7xl mx-auto mt-3 mb-1 ">
         <Link
           to="/"
           className="flex items-center gap-2 "
@@ -39,7 +39,6 @@ const Navbar = () => {
         >
           <img src={logo} alt="logo" className="logo bg-black bg-opacity-50  rounded-lg " />
         </Link>
-
         
         {/* <ul className="list-none hidden sm:flex flex-row gap-4">
           {navLinks.map((nav) => (
