@@ -14,7 +14,7 @@ const servicesData = [
 ];
 
 const ServiceCard = ({ title, images }) => (
-  <div className="md:w-72 sm:w-96 h-44  my-8 mx-5 rounded-2xl text-black hover:text-white service-card">
+  <div className="md:w-72 sm:w-96 h-44  my-8 mx-5 rounded-2xl text-black hover:text-white service-card ">
     {images.map((image, index) => (
       <div
         key={index}
@@ -30,7 +30,7 @@ const ServiceCard = ({ title, images }) => (
 );
 
 const Services = () => (
-  <div className="w-full h-auto rounded-3xl text-center ">
+  <div className="w-full h-auto rounded-3xl text-center bg-info">
     <div>
       <h1 className="text-black">Services</h1>
     </div>

@@ -490,11 +490,11 @@ button:focus-visible {
   background-image: url('/bgser1.png');
   background-size: cover;
   background-position: center;
-  /* background-attachment: fixed; */
+  background-attachment: fixed;
   /* width: 98.7vw; */
   /* width: 100%;  */
   /* height: 100vh; */
-  position: relative; /*not needed i guess*/
+  /* position: relative;  */
   /* overflow: hidden; */
   /* display: flex; */
   /* flex-direction: column; */

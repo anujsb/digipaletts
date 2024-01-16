@@ -2,7 +2,7 @@ const Contact = () => {
     return (
       <>
         {/* <Menu /> */}
-        <section id="contact-us" className="bg-gray-50 dark:bg-white mt-40 lg:my-32">
+        <section id="contact-us" className="bg-gray-50 dark:bg-white mt-40 lg:my-32 ">
           <div className="flex flex-row flex-wrap m-8 items-center justify-center px-6 py-8 mx-auto md:h-screen lg:py-0 ">
             <div data-aos="zoom-out" className=" flex flex-row justify-center  w-1/2 h-full  rounded-lg flex-wrap">
               <img
