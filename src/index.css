@@ -9,8 +9,8 @@ html, body {
 }
 
 *{
-  justify-content: center;
-  /* align-items: center; */
+  justify-content: center;       /* horizontal text*/ 
+  /* align-items: center; */   /* vertical text*/  
 }
 
 :root {
