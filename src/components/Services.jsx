@@ -1,6 +1,7 @@
 // import React from "react";
 import "./Services.css";
 
+
 const servicesData = [
   { title: "Digital Marketing", images: ["previous.webp", "next.webp"] },
   { title: "Social Media Marketing", images: ["previous.webp", "next.webp"] },
@@ -18,10 +19,10 @@ const ServiceCard = ({ title, images }) => (
       <div
         key={index}
         className={`absolute justify-center tri-${index === 0 ? "right" : "left"}`}
-        // style={{ content: `url(https://www.srvmedia.com/wp-content/uploads/2023/08/${image})` }}
+        // style={{ content: `url(https://www.srxvmedia.com/wp-content/uploads/2023/08/${image})` }}
       ></div>
     ))}
-    <h3 className="text-xl">{title}</h3>
+    <h3 className="text-2xl">{title}</h3>
 
     <div>
     </div>
@@ -29,7 +30,7 @@ const ServiceCard = ({ title, images }) => (
 );
 
 const Services = () => (
-  <div className="w-full h-auto bg-[#FEFDFA] rounded-3xl text-center ">
+  <div className="w-full h-auto rounded-3xl text-center ">
     <div>
       <h1 className="text-black">Services</h1>
     </div>
