@@ -2,8 +2,9 @@
 
 // import React from 'react';
 import { useEffect } from 'react';
-import { SlArrowRight } from "react-icons/sl";
-import { SlArrowLeft } from "react-icons/sl";
+import { FaArrowRight } from "react-icons/fa";
+
+import { FaArrowLeft } from "react-icons/fa";
 
 
 
@@ -84,17 +85,17 @@ const Hero = () => {
           </div>
         </div>
         <div className="buttons absolute bottom-10 z-20 text-center w-full">
-          {/* <button onClick={handlePrev} className="w-12 h-12 rounded-full border-2 border-gray-700 transition duration-500 hover:bg-green-500"> */}
-          <button onClick={handlePrev} className="w-20 h-20   transition duration-500 ">
+          <button onClick={handlePrev} className="w-15 h-15 rounded-full border-1 border-gray-700 transition duration-500 hover:backdrop-blur-lg text-stone-700">
+          {/* <button onClick={handlePrev} className="w-20 h-20   transition duration-500 "> */}
             {/* <i className=" fa-angle-left"></i> */}
             {/* <FontAwesomeIcon icon="fa-solid fa-angle-left" /> */}
-            <SlArrowLeft style={{ fontSize: '40px' }}/>
+            <FaArrowLeft style={{ fontSize: '30px' }}/>
 
             
           </button>
-          <button onClick={handleNext} className="w-20 h-20   transition duration-500">
+          <button onClick={handleNext} className="w-15 h-15 rounded-full border-1 border-gray-700 transition duration-500 hover:backdrop-blur-lg text-stone-700">
             {/* <i className="fas fa-angle-right"></i> */}
-            <SlArrowRight style={{ fontSize: '40px' }}/>
+            <FaArrowRight style={{ fontSize: '30px' }}/>
           </button>
         </div>
       </div>

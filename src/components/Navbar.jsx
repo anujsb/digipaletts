@@ -25,10 +25,10 @@ const Navbar = () => {
   return (
     <nav
     className={`${
-      active ? 'shadow-lg pt-0 backdrop-blur-md' : 'pt-0.5'
-    } sm:px-4 lg:px-16 fixed top-0 w-full z-30 `}
+      active ? 'shadow-lg pt-0 backdrop-blur-md' : ''
+    } sm:px-4 lg:px-16 fixed top-0 w-full z-30  `}
     >
-      <div className="w-full flex justify-between items-center max-w-7xl mx-auto   ">
+      <div className="w-full flex justify-between items-center max-w-7xl mx-auto my-3  ">
         <Link
           to="/"
           className="flex items-center gap-2 "
@@ -37,7 +37,7 @@ const Navbar = () => {
             window.scrollTo({ top: 0, behavior: 'smooth' }); 
           }}
         >
-          <img src={logo} alt="logo" className="logo bg-black bg-opacity-50  rounded-lg" />
+          <img src={logo} alt="logo" className="logo bg-black bg-opacity-50  rounded-lg " />
         </Link>
 
         

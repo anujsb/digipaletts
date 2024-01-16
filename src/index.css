@@ -85,7 +85,7 @@ a {
   text-decoration: inherit;
 }
 a:hover {
-  color: #6c6c6c;
+  /* color: #6c6c6c; */
 }
 
 body {
@@ -111,26 +111,28 @@ button {
   font-family: inherit;
   /* background-color: #1a1a1a; */
   cursor: pointer;
-  transition: border-color 0.25s;
+  /* transition: border-color 0.25s; */
 }
 button:hover {
   /* border-color: #646cff; */
 }
 button:focus,
 button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
+  /* outline: 4px auto -webkit-focus-ring-color; */
 }
 
 @media (prefers-color-scheme: light) {
   :root {
-    color: #213547;
-    background-color: #129140;
+    /* color: #213547; */
+    /* background-color: #129140; */
+    background-color: transparent;
   }
   a:hover {
-    color: #747bff;
+    /* color: #747bff; */
   }
   button {
-    background-color: #a51313;
+    /* background-color: #a51313; */
+    background-color: transparent;
   }
 }
 
