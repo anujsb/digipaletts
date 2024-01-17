@@ -1,14 +1,17 @@
 // FullscreenOverlayNav.jsx
 
 import React, { useState } from 'react';
+import { RxHamburgerMenu } from "react-icons/rx";
 
 const FullscreenOverlayNav = () => {
   const [active, setActive] = useState(false);
 
   return (
-    <>
+    <><div className='z-35'>
       <input type="checkbox" id="active" />
-      <label htmlFor="active" className="menu-btn"><i className="fas fa-bars"></i></label>
+      <label htmlFor="active" className="menu-btn flex justify-center items-center">
+      <RxHamburgerMenu style={{ fontSize: '30px' }}/>
+      </label>
       <div className="wrapper">
         <ul>
           <li><a href="#">Home</a></li>
@@ -18,6 +21,8 @@ const FullscreenOverlayNav = () => {
           <li><a href="#">Feedback</a></li>
         </ul>
       </div>
+    </div>
+      
     </>
   );
 };

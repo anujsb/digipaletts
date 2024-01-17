@@ -24,9 +24,10 @@ const Navbar = () => {
   }, []);
 
   return (
+    <div className=''>
     <nav
     className={`${
-      active ? 'shadow-lg pt-0 backdrop-blur-md' : ''
+      active ? 'shadow-lg pt-0 backdrop-blur-md z-30' : ''
     } sm:px-4 lg:px-16 fixed top-0 w-full z-30  `}
     >
       <div className="w-full flex justify-between items-center max-w-7xl mx-auto mt-3 mb-1 ">
@@ -56,7 +57,7 @@ const Navbar = () => {
         </ul> */}
 
 
-        <div className='flex items-center gap-2 rounded-full shadow-lg border-b-2  border-black'>
+        <div className='flex items-center gap-2 rounded-full shadow-lg border-b-2 border-black mx-10'>
             <Link 
                 to="/Services"
                     >
@@ -72,8 +73,10 @@ const Navbar = () => {
             
         </div>
       </div>
-      <FullscreenOverlayNav />
+      
     </nav>
+    <FullscreenOverlayNav />
+    </div>
   );
 };
 

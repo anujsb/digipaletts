@@ -559,30 +559,33 @@ button:focus-visible {
 /* =-================================================================== */
 
 /* @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap'); */
-*{
+/* *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
-}
+} */
 .wrapper{
   position: fixed;
   top: 0;
   left: 0;
   height: 100%;
   width: 100%;
-  background: linear-gradient(-135deg, #ffe45c, #ffffff);
+  /* background: linear-gradient(-135deg, #ffe45c, #ffffff); */
+  background: #202020;
   /* background: linear-gradient(375deg, #1cc7d0, #2ede98); */
   /* clip-path: circle(25px at calc(0% + 45px) 45px); */
   clip-path: circle(25px at calc(100% - 45px) 45px);
   transition: all 0.3s ease-in-out;
+  z-index: 50;
 }
 #active:checked ~ .wrapper{
   clip-path: circle(75%);
+  z-index: 50;
 }
 .menu-btn{
-  position: absolute;
-  z-index: 2;
+  position: fixed;
+  z-index: 60;
   right: 20px;
   /* left: 20px; */
   top: 20px;
@@ -592,14 +595,14 @@ button:focus-visible {
   line-height: 50px;
   border-radius: 50%;
   font-size: 20px;
-  color: #000000;
+  /* color: #000000; */
   cursor: pointer;
-  background: linear-gradient(-135deg, #ffe45c, #ffffff);
+  /* background: linear-gradient(-135deg, #ffe45c, #ffffff); */
   /* background: linear-gradient(375deg, #1cc7d0, #2ede98); */
   transition: all 0.3s ease-in-out;
 }
 #active:checked ~ .menu-btn{
-  background: #000000;
+  background: #ffffff;
   color: #4158d0;
 }
 #active:checked ~ .menu-btn i:before{
