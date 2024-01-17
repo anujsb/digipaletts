@@ -9,7 +9,7 @@ const FullscreenOverlayNav = () => {
   return (
     <><div className='z-35'>
       <input type="checkbox" id="active" />
-      <label htmlFor="active" className="menu-btn flex justify-center items-center">
+      <label htmlFor="active" className="menu-btn  justify-center items-center">
       <RxHamburgerMenu style={{ fontSize: '30px' }}/>
       </label>
       <div className="wrapper">
