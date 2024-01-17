@@ -26,61 +26,61 @@ const Hero = () => {
 
 
   return (
-    <div className="bg-black min-h-screen h-auto w-full bg-info">
-      <div className="container mx-auto flex items-center justify-center h-full">
-        <div id="slide" className="max-w-max-content mt-10">
-          <div className="item bg-cover bg-center w-72 h-96" style={{ backgroundImage: 'url(https://i.postimg.cc/P5VHyGb2/IMG-20240114-WA0009.jpg)' }}>
-            <div className="content">
-              <div className="name text-4xl font-bold">title</div>
-              <div className="des">
+    <div className="bg-black min-h-screen h-auto w-full bg-info ">
+      <div className="container mx-auto flex items-center justify-center h-full ">
+        <div id="slide" className="max-w-max-content mt-10 ">
+          <div className="item bg-cover bg-center w-72 h-96 " style={{ backgroundImage: 'url(https://i.postimg.cc/P5VHyGb2/IMG-20240114-WA0009.jpg)' }}> {/* 3.1*/}
+            <div className="content ">
+              <div className="name text-4xl font-bold text-black">title</div>
+              <div className="des text-black">
                 details
               </div>
-              <button className="px-4 py-2">See more</button>
+              <button className="px-4 py-2 text-black bg-gradient-to-r hover:from-yellow-100 hover:to-yellow-400 from-yellow-100 to-yellow-50">See more</button>
+            </div>
+          </div> 
+          <div className="item bg-cover bg-center w-72 h-96" style={{ backgroundImage: 'url(https://i.postimg.cc/4Ncg9Jcm/Whats-App-Image-2024-01-17-at-16-34-05-656c8949.jpg)' }}> {/* 1.0*/}
+            <div className="content">
+              <div className="name text-4xl font-bold text-black ">Market Your Business Every Day</div>
+              <div className="des text-black ">
+                details
+              </div>
+              <button className="px-4 py-2 text-black  bg-gradient-to-r from-yellow-100 to-yellow-50 hover:from-yellow-100 hover:to-yellow-400 ">See more</button>
             </div>
           </div>
-          <div className="item bg-cover bg-center w-72 h-96" style={{ backgroundImage: 'url(https://i.postimg.cc/FRBWthGs/pexels-shvets-production-7195232.jpg)' }}>
+          <div className="item bg-cover bg-center w-72 h-96" style={{ backgroundImage: 'url(https://i.postimg.cc/xTB1wxvb/Whats-App-Image-2024-01-17-at-16-34-04-aeea2161.jpg)' }}> {/* 2.0*/}
             <div className="content">
-              <div className="name text-4xl font-bold ">title</div>
-              <div className="des ">
+              <div className="name text-4xl font-bold text-black">title</div>
+              <div className="des text-black">
                 details
               </div>
-              <button className="px-4 py-2 ">See more</button>
+              <button className="px-4 py-2 text-black bg-gradient-to-r hover:from-yellow-100 hover:to-yellow-400 from-yellow-100 to-yellow-50">See more</button>
             </div>
           </div>
-          <div className="item bg-cover bg-center w-72 h-96" style={{ backgroundImage: 'url(https://i.postimg.cc/Jnk6W9FN/pexels-jonathan-borba-14891568.jpg)' }}>
+          <div className="item bg-cover bg-center w-72 h-96 " style={{ backgroundImage: 'url(https://i.postimg.cc/P5VHyGb2/IMG-20240114-WA0009.jpg)' }}> {/* 3.0*/}
             <div className="content">
-              <div className="name text-4xl font-bold ">title</div>
-              <div className="des ">
+              <div className="name text-4xl font-bold text-black">title</div>
+              <div className="des text-black">
                 details
               </div>
-              <button className="px-4 py-2 ">See more</button>
+              <button className="px-4 py-2 text-black bg-gradient-to-r hover:from-yellow-100 hover:to-yellow-400 from-yellow-100 to-yellow-50">See more</button>
             </div>
           </div>
-          <div className="item bg-cover bg-center w-72 h-96" style={{ backgroundImage: 'url(https://i.postimg.cc/65jdYMjt/pexels-alena-shekhovtcova-8068004.jpg)' }}>
+          <div className="item bg-cover bg-center w-72 h-96" style={{ backgroundImage: 'url(https://i.postimg.cc/4Ncg9Jcm/Whats-App-Image-2024-01-17-at-16-34-05-656c8949.jpg)' }}> {/* 1.1*/}
             <div className="content">
-              <div className="name text-4xl font-bold">title</div>
-              <div className="des">
+              <div className="name text-4xl font-bold text-black">title</div>
+              <div className="des text-black">
                 details
               </div>
-              <button className="px-4 py-2">See more</button>
+              <button className="px-4 py-2 text-black bg-gradient-to-r hover:from-yellow-100 hover:to-yellow-400 from-yellow-100 to-yellow-50">See more</button>
             </div>
-          </div>
-          <div className="item bg-cover bg-center w-72 h-96" style={{ backgroundImage: 'url(https://i.postimg.cc/yd1xqHx5/pexels-sound-on-3756879.jpg)' }}>
+          </div>  
+          <div className="item bg-cover bg-center w-72 h-96" style={{ backgroundImage: 'url(https://i.postimg.cc/xTB1wxvb/Whats-App-Image-2024-01-17-at-16-34-04-aeea2161.jpg)' }}> {/* 2.1*/}
             <div className="content">
-              <div className="name text-4xl font-bold">title</div>
-              <div className="des">
+              <div className="name text-4xl font-bold text-black">title</div>
+              <div className="des text-black">
                 details
               </div>
-              <button className="px-4 py-2">See more</button>
-            </div>
-          </div>
-          <div className="item bg-cover bg-center w-72 h-96" style={{ backgroundImage: 'url(https://i.postimg.cc/dtrhTnb5/pexels-mikael-blomkvist-6476799.jpg)' }}>
-            <div className="content">
-              <div className="name text-4xl font-bold">title</div>
-              <div className="des">
-                details
-              </div>
-              <button className="px-4 py-2">See more</button>
+              <button className="px-4 py-2 text-black bg-gradient-to-r hover:from-yellow-100 hover:to-yellow-400 from-yellow-100 to-yellow-50">See more</button>
             </div>
           </div>
         </div>

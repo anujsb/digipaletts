@@ -4,6 +4,7 @@
 import { useState, useEffect } from 'react';
 import { Link, useNavigate  } from 'react-router-dom';
 // import { navLinks } from '../constants/constants';
+import FullscreenOverlayNav from './Extra/FullscreenOverlayNav';
 import { logo } from '../assets/images';
 
 const Navbar = () => {
@@ -68,8 +69,10 @@ const Navbar = () => {
                     Contact
                 </button>
             </Link>
+            
         </div>
       </div>
+      <FullscreenOverlayNav />
     </nav>
   );
 };
