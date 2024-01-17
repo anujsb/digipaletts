@@ -57,7 +57,7 @@ const Navbar = () => {
         </ul> */}
 
 
-        <div className='flex items-center gap-2 rounded-full shadow-lg border-b-2 border-black mx-10'>
+        <div className='flex items-center gap-2 rounded-full shadow-lg border-b-2 border-black '>
             <Link 
                 to="/Services"
                     >
