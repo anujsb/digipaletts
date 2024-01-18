@@ -39,7 +39,9 @@
   
   /* Add this class for the hover effect with transition delay */
   .service-card:hover {
-    background-color: #DA1F26; /* Set the hover background color */
+    /* background-color: #DA1F26;  */
+    background-color: #ffd900a0; /* Fallback color for browsers that do not support gradients */
+    background-image: linear-gradient(45deg, #ffd900a0, #e5ac008f);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Increase box shadow on hover */
     transition-delay: 0.1s; /* Set the delay for the transition */
   }
