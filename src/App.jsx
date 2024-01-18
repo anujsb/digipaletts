@@ -20,13 +20,13 @@ function App() {
 
   return (
     <BrowserRouter>
-        <div className='justify-center items-center'>
-        <Navbar/>
-        </div>
+        {/* <div className='justify-center items-center'>
+        
+        </div> */}
         
         {/* <FullscreenOverlayNav /> */}
       <div className='justify-center items-center'>
-        
+      <Navbar/>
         <Hero/>
         <Info />
         <Services />
