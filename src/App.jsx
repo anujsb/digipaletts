@@ -21,10 +21,11 @@ function App() {
   return (
     <BrowserRouter>
         <Navbar/>
+        <Hero/>
         {/* <FullscreenOverlayNav /> */}
       <div className='justify-center items-center'>
         
-        <Hero/>
+        
         <Info />
         <Services />
         <Blog/>
