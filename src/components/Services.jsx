@@ -22,7 +22,7 @@ const ServiceCard = ({ title, images }) => (
         // style={{ content: `url(https://www.srxvmedia.com/wp-content/uploads/2023/08/${image})` }}
       ></div>
     ))}
-    <h3 className="text-2xl">{title}</h3>
+    <h3 className="text-3xl">{title}</h3>
 
     <div>
     </div>
