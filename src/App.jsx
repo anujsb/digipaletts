@@ -1,15 +1,14 @@
-
-import './App.css'
-import { BrowserRouter } from "react-router-dom" ;
-import Navbar from './components/Navbar';
-import Hero from './components/Hero';
-import Info from './components/Info';
-import Services from './components/Services';
-import Testimonial from './components/Testimonial';
-import Footer  from './components/Footer';
-import Faq from './components/Faq';
-import Contact from './components/Contact';
-import Blog from './components/Blog';
+import "./App.css";
+import { BrowserRouter } from "react-router-dom";
+import Navbar from "./components/Navbar";
+import Hero from "./components/Hero";
+import Info from "./components/Info";
+import Services from "./components/Services";
+import Testimonial from "./components/Testimonial";
+import Footer from "./components/Footer";
+import Faq from "./components/Faq";
+import Contact from "./components/Contact";
+import Blog from "./components/Blog";
 import DigitalMarketing from "./components/Services/DigitalMarketing";
 import SocialMarketing from "./components/Services/SocialMarketing";
 import PaidAdvertising from "./components/Services/PaidAdvertising";
@@ -17,21 +16,19 @@ import Overlaymenu from "./components/Extra/FullscreenOverlayNav";
 // import FullscreenOverlayNav from "./components/Extra/FullscreenOverlayNav";
 
 function App() {
-
   return (
     <BrowserRouter>
-        {/* <div className='justify-center items-center'>
+      {/* <div className='justify-center items-center'>
         
         </div> */}
-        <Navbar/>
-        {/* <FullscreenOverlayNav /> */}
-      <div className='justify-center items-center'>
-      
-        <Hero/>
+      <Navbar />
+      {/* <FullscreenOverlayNav /> */}
+      <div className="justify-center items-center">
+        <Hero />
         <Info />
         <Services />
-        <Blog/>
-        <Testimonial/>
+        <Blog />
+        <Testimonial />
         <Faq />
         <Contact />
         <Footer />
@@ -39,18 +36,9 @@ function App() {
         {/* <SocialMarketing /> */}
         {/* <PaidAdvertising /> */}
         <Overlaymenu />
-        
-        
-        
-        
-      </div>
-      
-      <div>
-      
       </div>
     </BrowserRouter>
-  )
+  );
 }
 
-export default App
-
+export default App;
