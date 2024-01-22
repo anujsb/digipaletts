@@ -31,7 +31,7 @@ const Hero = () => {
         <div id="slide" className="max-w-max-content mt-10 ">
           <div className="item bg-cover bg-center h-screen w-full" style={{ backgroundImage: 'url(https://i.postimg.cc/P5VHyGb2/IMG-20240114-WA0009.jpg)' }}> {/* 3.1*/}
             <div className="content ">
-              <div className="name text-4xl font-bold text-black">we are growth hackers</div>
+              <div className="name text-4xl font-bold text-black bg-black bg-opacity-10 rounded-lg p-5 backdrop-blur-md">We are dedicated to your growth and Progress.</div>
               <div className="des text-black">
                 
               </div>
@@ -40,17 +40,16 @@ const Hero = () => {
           </div> 
           <div className="item bg-cover bg-center w-72 h-96" style={{ backgroundImage: 'url(https://i.postimg.cc/4Ncg9Jcm/Whats-App-Image-2024-01-17-at-16-34-05-656c8949.jpg)' }}> {/* 1.0*/}
             <div className="content">
-              <div className="name text-4xl font-bold text-black ">Market Your Business Every Day</div>
+              <div className="name text-4xl font-bold text-black bg-black bg-opacity-10 rounded-lg p-5 backdrop-blur-md">More than digital marketers , we are growth hackers.</div>
               <div className="des text-black ">
               Is Not Just A Slogan; It's A Philosophy.
-
               </div>
               <button className="px-4 py-2 text-black  bg-gradient-to-r from-yellow-100 to-yellow-50 hover:from-yellow-100 hover:to-yellow-400 ">See more</button>
             </div>
           </div>
           <div className="item bg-cover bg-center w-72 h-96" style={{ backgroundImage: 'url(https://i.postimg.cc/xTB1wxvb/Whats-App-Image-2024-01-17-at-16-34-04-aeea2161.jpg)' }}> {/* 2.0*/}
             <div className="content">
-              <div className="name text-4xl font-bold text-black">More than digital marketers</div>
+              <div className="name text-4xl font-bold text-black bg-black bg-opacity-10 rounded-lg p-5 backdrop-blur-md">Hand over your marketing needs to us, and watch your business grow</div>
               <div className="des text-black">
                 
               </div>
@@ -59,7 +58,7 @@ const Hero = () => {
           </div>
           <div className="item bg-cover bg-center w-72 h-96 " style={{ backgroundImage: 'url(https://i.postimg.cc/P5VHyGb2/IMG-20240114-WA0009.jpg)' }}> {/* 3.0*/}
             <div className="content">
-              <div className="name text-4xl font-bold text-black">we are growth hackers</div>
+              <div className="name text-4xl font-bold text-black bg-black bg-opacity-10 rounded-lg p-5 backdrop-blur-md">We are dedicated to your growth and Progress.</div>
               <div className="des text-black">
                 
               </div>
@@ -68,7 +67,7 @@ const Hero = () => {
           </div>
           <div className="item bg-cover bg-center w-72 h-96" style={{ backgroundImage: 'url(https://i.postimg.cc/4Ncg9Jcm/Whats-App-Image-2024-01-17-at-16-34-05-656c8949.jpg)' }}> {/* 1.1*/}
             <div className="content">
-              <div className="name text-4xl font-bold text-black">Market Your Business Every Day</div>
+              <div className="name text-4xl font-bold text-black bg-black bg-opacity-10 rounded-lg p-5 backdrop-blur-md">More than digital marketers , we are growth hackers.</div>
               <div className="des text-black">
               Is Not Just A Slogan; It's A Philosophy.
               </div>
@@ -77,7 +76,7 @@ const Hero = () => {
           </div>  
           <div className="item bg-cover bg-center w-72 h-96" style={{ backgroundImage: 'url(https://i.postimg.cc/xTB1wxvb/Whats-App-Image-2024-01-17-at-16-34-04-aeea2161.jpg)' }}> {/* 2.1*/}
             <div className="content">
-              <div className="name text-4xl font-bold text-black">More than digital marketers</div>
+              <div className="name text-4xl font-bold text-black bg-black bg-opacity-10 rounded-lg p-5 backdrop-blur-md">Hand over your marketing needs to us, and watch your business grow</div>
               <div className="des text-black">
 
               </div>

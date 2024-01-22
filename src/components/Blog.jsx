@@ -5,7 +5,7 @@ const Blog = () => {
     <section className="py-12 bg-info sm:py-16 lg:py-20">
       <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
         <div className="max-w-md mx-auto text-center">
-          <h2 className="text-3xl font-bold text-gray-900 sm:text-4xl font-pj">Read our blog</h2>
+          <h2 className="text-3xl font-bold text-gray-900 sm:text-6xl font-pj">Read our blog</h2>
           <p className="mt-5 font-normal text-gray-600 font-pj">We have  great team of researchers , who are always crawling around the web.</p>
           <p className="mt-5 font-normal text-gray-600 font-pj">Our fantastic research team is constantly scouring the internet and cutting edge technologies to deliver you the best instructional information possible. </p>
         </div>

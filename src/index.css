@@ -18,7 +18,8 @@ body {
 
 :root {
   /* font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif; */
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Chillax', sans-serif;
+  /* font-family: 'Excon', sans-serif; */
   /* font-family: 'Montserrat', sans-serif; */
   /* font-family: 'Nunito', sans-serif; */
   line-height: 1.5;
@@ -144,7 +145,7 @@ button:focus-visible {
   /* height: auto;   no card */
   background-position: 50% 50%;
   display: inline-block;
-  transition: 0.5s;
+  transition: 0.9s;
   background-size: cover;
   position: absolute;
   z-index: 1;
@@ -205,7 +206,8 @@ button:focus-visible {
   color: #eee;
   transform: translate(0, -50%);
   display: none;
-  font-family: system-ui;
+  /* font-family: system-ui; */
+  font-family: 'Chillax', sans-serif;
 }
 
 .item:nth-child(2) .content {
@@ -214,7 +216,7 @@ button:focus-visible {
 }
 
 .item .name {
-  font-size: 40px;
+  font-size: 30px;
   font-weight: bold;
   opacity: 0;
   animation: showcontent 1s ease-in-out 1 forwards
