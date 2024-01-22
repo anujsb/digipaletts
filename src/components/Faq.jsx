@@ -15,7 +15,7 @@ const Faq = () => {
             Frequently Asked Questions
           </h2>
           <p className="max-w-xl mx-auto mt-4 text-base leading-relaxed text-gray-600">
-            asdfghjk
+            {/* asdfghjk */}
           </p>
         </div>
 

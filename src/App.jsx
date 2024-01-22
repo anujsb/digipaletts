@@ -23,10 +23,10 @@ function App() {
         {/* <div className='justify-center items-center'>
         
         </div> */}
-        
+        <Navbar/>
         {/* <FullscreenOverlayNav /> */}
       <div className='justify-center items-center'>
-      <Navbar/>
+      
         <Hero/>
         <Info />
         <Services />
