@@ -1,7 +1,7 @@
 import React from "react";
 
 
-const DigitalMarketing = () => {
+const About = () => {
 
     return(
     <div className=" bg- bg-yellow-300">
@@ -39,4 +39,4 @@ const DigitalMarketing = () => {
     )
 }
 
-export default DigitalMarketing;
+export default About;
