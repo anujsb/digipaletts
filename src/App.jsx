@@ -32,15 +32,70 @@ function App() {
               <Faq />
               <Contact />
               <Footer />
+              <Overlaymenu />
             </div>
           }
         />
-        <Route path="/About" element={
-        <div>
-        <About />
-        <Contact />
-        <Footer />
-      </div>} />
+        <Route
+          path="/About"
+          element={
+            <div>
+              <About />
+              <Contact />
+              <Footer />
+            </div>
+          }
+        />
+        <Route
+          path="/DigitalMarketing"
+          element={
+            <div>
+              <DigitalMarketing />
+              <Contact />
+              <Footer />
+            </div>
+          }
+        />
+        <Route
+          path="/GraphicDesigning"
+          element={
+            <div>
+              <DigitalMarketing />
+              <Contact />
+              <Footer />
+            </div>
+          }
+        />
+        <Route
+          path="/PaidAdvertising"
+          element={
+            <div>
+              <DigitalMarketing />
+              <Contact />
+              <Footer />
+            </div>
+          }
+        />
+        <Route
+          path="/SocialMarketing"
+          element={
+            <div>
+              <DigitalMarketing />
+              <Contact />
+              <Footer />
+            </div>
+          }
+        />
+        <Route
+          path="/DigitalMarketing"
+          element={
+            <div>
+              <DigitalMarketing />
+              <Contact />
+              <Footer />
+            </div>
+          }
+        />
         <Route
           path="/DigitalMarketing"
           element={
