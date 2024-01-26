@@ -159,17 +159,22 @@ const Contact = () => {
             </div>
           </div>
         </div>
-        <div>
-          <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30237.69821792212!2d73.87283223796197!3d18.676902976588536!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2c628ae2ec5f9%3A0x2b421cca670af934!2sAlandi%2C%20Pune%2C%20Maharashtra%20412105!5e0!3m2!1sen!2sin!4v1706263525660!5m2!1sen!2sin"
-            // width="600"
-            // height="450"
-            className="h-[400px] rounded-lg px-10 w-full"
-            style={{border:"0"}}
-            allowfullscreen=""
-            loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"
-          ></iframe>
+        <div className=" m-8 px-6 py-8 mx-auto grid grid-flow-row  sm:grid-flow-col grid-rows-2 md:grid-rows-1 sm:grid-cols-2">
+          <div>
+            <h1 className="text-black text-lg">Office No. 212, 2nd Floor, Kakade Plaza, Warje Jakat Naka, Karve Nagar, Pune, Maharashtra 411052</h1>
+          </div>
+          <div>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30270.88017777569!2d73.7872241185826!3d18.489998636223515!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2bfe0a7394bbd%3A0xe33deeba66f35c6!2sMusic%20Galaxy%20India!5e0!3m2!1sen!2sin!4v1706268265228!5m2!1sen!2sin"
+              // width="600"
+              // height="450"
+              className="rounded-2xl border-black w-full  "
+              style={{border:"0"}}
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
         </div>
       </section>
     </>
