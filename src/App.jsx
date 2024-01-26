@@ -35,8 +35,22 @@ function App() {
             </div>
           }
         />
-        <Route path="/About" element={<About />} />
-        <Route path="/DigitalMarketing" element={<DigitalMarketing />} />
+        <Route path="/About" element={
+        <div>
+        <About />
+        <Contact />
+        <Footer />
+      </div>} />
+        <Route
+          path="/DigitalMarketing"
+          element={
+            <div>
+              <DigitalMarketing />
+              <Contact />
+              <Footer />
+            </div>
+          }
+        />
       </Routes>
     </BrowserRouter>
   );

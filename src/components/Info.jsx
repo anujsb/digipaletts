@@ -15,14 +15,11 @@ const Info = () => {
               <p className="text-5xl font-bold text-black  mt-4 md:px-10 sm:p-0 sm:my-5  lg:mt-8">
                 Welcome To Digi Palettes
               </p>
-              <p className="text-black text text-xl subpixel-antialiased font-medium tracking-wide mt-4 md:p-10 sm:p-0 sm:my-5  lg:mt-8 sm:text-xl ">
+              {/* <p className="text-black text text-xl subpixel-antialiased font-medium tracking-wide mt-4 md:p-10 sm:p-0 sm:my-5  lg:mt-8 sm:text-xl ">
                 Join Us On A Journey Where Passion Meets Expertise, And Let Digi
                 Palettes Be The Brushstroke That Paints Your Business Success
                 Story.
               </p>
-              {/* <p className="text-black subpixel-antialiased tracking-wide sm:text-xl lg:mt-8 md:mt-4 sm:px-0 md:px-10  sm:mt-10 text-base  ">A Team Of Passionate Entrepreneurs, Digital Marketers, Artists, And Web Developers. In A Landscape Crowded With Digital Marketing Agencies, We Stand Out As A Rare Breed, Offering Genuine And Authentic Consultation.
-                                Navigating The Intricacies Of Digital Marketing Can Be A Challenge, And Even Professionals May Find Themselves Unaware Of The Technicalities Involved. At Digi Palettes, We Are Committed To Not Only Guiding You Through The Process But Also Dedicated To Nurturing Your Business From Its Nascent Stages To A Fully Established Presence.
-                            </p> */}
               <ul className="text-black subpixel-antialiased tracking-wide sm:text-xl lg:mt-8 md:mt-4 sm:px-0 md:px-10  sm:mt-10 text-base  ">
                 <li className="text-black subpixel-antialiased tracking-wide sm:text-xl lg:mt-2 md:mt-2 sm:px-0 md:px-10  sm:mt-10 text-base  ">
                   *Passionate Multidisciplinary Team: Our dynamic team includes
@@ -40,9 +37,30 @@ const Info = () => {
                   At Digi Palettes, our professionals excel in understanding and
                   addressing these technicalities.
                 </li>
-                {/* <li className="text-black subpixel-antialiased tracking-wide sm:text-xl lg:mt-8 md:mt-4 sm:px-0 md:px-10  sm:mt-10 text-base  ">*Professional Guidance for All Levels: Whether you're a novice or an experienced professional, we are committed to providing expert guidance through every step of the digital marketing journey.</li> */}
-                {/* <li className="text-black subpixel-antialiased tracking-wide sm:text-xl lg:mt-8 md:mt-4 sm:px-0 md:px-10  sm:mt-10 text-base  ">Business Nurturing Commitment: Beyond consultation, our commitment extends to nurturing your business from its nascent stages to a fully established and prominent online presence.</li>
-                                <li className="text-black subpixel-antialiased tracking-wide sm:text-xl lg:mt-8 md:mt-4 sm:px-0 md:px-10  sm:mt-10 text-base  ">Holistic and Comprehensive Support: Digi Palettes adopts a holistic approach, ensuring that our support covers not only technical aspects but also contributes to the overall growth and success of your business.</li> */}
+              </ul> */}
+              <h2 className="text-2xl font-bold m-4 text-black">
+                Join Us On A Journey Where Passion Meets Expertise, And Let Digi
+                Palettes Be The Brushstroke That Paints Your Business Success
+                Story.
+              </h2>
+              <ul className="text-lg m-6 text-black">
+                <li className="text-lg mb-6">
+                  <strong>Passionate Multidisciplinary Team:</strong>Amidst the
+                  saturation of digital marketing agencies, Digi Palettes shines
+                  as a rare breed, offering authentic and genuine consultation
+                  services.
+                </li>
+                <li className="text-lg mb-6">
+                  <strong>Unparalleled Differentiation:</strong> Compared to
+                  traditional methods, digital marketing is often more
+                  cost-effective.
+                </li>
+                <li className="text-lg mb-6">
+                  <strong>Expert Navigation of Digital Complexities:</strong>{" "}
+                  Navigating the intricate landscape of digital marketing can be
+                  challenging. At Digi Palettes, our professionals excel in
+                  understanding and addressing these technicalities.
+                </li>
               </ul>
 
               <Link
