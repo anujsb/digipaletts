@@ -19,18 +19,24 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<div className="justify-center items-center">
-          <Navbar />
-          <Hero />
-          <Info />
-          <Services />
-          <Blog />
-          <Testimonial />
-          <Faq />
-          <Contact />
-          <Footer />
-        </div>} />
+        <Route
+          path="/"
+          element={
+            <div className="justify-center items-center">
+              <Navbar />
+              <Hero />
+              <Info />
+              <Services />
+              <Blog />
+              <Testimonial />
+              <Faq />
+              <Contact />
+              <Footer />
+            </div>
+          }
+        />
         <Route path="/About" element={<About />} />
+        <Route path="/DigitalMarketing" element={<DigitalMarketing />} />
       </Routes>
     </BrowserRouter>
   );
