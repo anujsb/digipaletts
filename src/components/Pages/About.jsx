@@ -115,6 +115,7 @@ const About = () => {
           <li className="text-lg mb-6">
             <strong>Cost-Effective:</strong> Compared to traditional methods,
             digital marketing is often more cost-effective.
+            
           </li>
           <li className="text-lg mb-6">
             <strong>Measurable Results:</strong> Detailed analytics provide
