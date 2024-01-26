@@ -12,6 +12,7 @@ import Blog from "./components/Blog";
 import DigitalMarketing from "./components/Services/DigitalMarketing";
 import SocialMarketing from "./components/Services/SocialMarketing";
 import PaidAdvertising from "./components/Services/PaidAdvertising";
+// import SEO from "./components/Services/SEO";
 import Overlaymenu from "./components/Extra/FullscreenOverlayNav";
 import About from "./components/Pages/About";
 
@@ -43,6 +44,7 @@ function App() {
               <About />
               <Contact />
               <Footer />
+              <Overlaymenu />
             </div>
           }
         />
@@ -50,59 +52,11 @@ function App() {
           path="/DigitalMarketing"
           element={
             <div>
+              <Navbar />
               <DigitalMarketing />
               <Contact />
               <Footer />
-            </div>
-          }
-        />
-        <Route
-          path="/GraphicDesigning"
-          element={
-            <div>
-              <DigitalMarketing />
-              <Contact />
-              <Footer />
-            </div>
-          }
-        />
-        <Route
-          path="/PaidAdvertising"
-          element={
-            <div>
-              <DigitalMarketing />
-              <Contact />
-              <Footer />
-            </div>
-          }
-        />
-        <Route
-          path="/SocialMarketing"
-          element={
-            <div>
-              <DigitalMarketing />
-              <Contact />
-              <Footer />
-            </div>
-          }
-        />
-        <Route
-          path="/DigitalMarketing"
-          element={
-            <div>
-              <DigitalMarketing />
-              <Contact />
-              <Footer />
-            </div>
-          }
-        />
-        <Route
-          path="/DigitalMarketing"
-          element={
-            <div>
-              <DigitalMarketing />
-              <Contact />
-              <Footer />
+              <Overlaymenu />
             </div>
           }
         />
