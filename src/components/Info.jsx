@@ -1,6 +1,7 @@
 import React from "react";
-// import { useHistory } from "react-router-dom"
-
+import About from "./Pages/About";
+// import {BrowserRouter as Router, Route, Switch, Link} from "react-router-dom";
+import { Link } from "react-router-dom";
 const Info = () => {
   // const history = useHistory()
 
@@ -44,8 +45,9 @@ const Info = () => {
                                 <li className="text-black subpixel-antialiased tracking-wide sm:text-xl lg:mt-8 md:mt-4 sm:px-0 md:px-10  sm:mt-10 text-base  ">Holistic and Comprehensive Support: Digi Palettes adopts a holistic approach, ensuring that our support covers not only technical aspects but also contributes to the overall growth and success of your business.</li> */}
               </ul>
 
-              <a
-                href="#"
+              <Link
+                // href="#"
+                to="/About"
                 title=""
                 className="inline-flex items-center px-6 py-4 mt-8 font-semibold text-black transition-all duration-200 bg-yellow-300 rounded-full lg:mt-16 hover:bg-yellow-400 focus:bg-yellow-400"
                 role="button"
@@ -65,7 +67,7 @@ const Info = () => {
                     d="M13 9l3 3m0 0l-3 3m3-3H8m13 0a9 9 0 11-18 0 9 9 0 0118 0z"
                   />
                 </svg>
-              </a>
+              </Link>
 
               {/* <p className="mt-5 text-gray-600">Already joined us? <a href="#" title="" className="text-black transition-all duration-200 hover:underline">Log in</a></p> */}
             </div>

@@ -1,10 +1,4 @@
-// import GoogleMap from 'react-google-maps';
-
 const Contact = () => {
-  // const [center, setCenter] = React.useState({
-  //   lat: 37.7833,
-  //   lng: -122.4167,
-  // });
   return (
     <>
       {/* <Menu /> */}
@@ -170,9 +164,9 @@ const Contact = () => {
               // height="450"
               className="rounded-2xl border-black w-full  "
               style={{border:"0"}}
-              allowfullscreen=""
+              allowFullScreen=""
               loading="lazy"
-              referrerpolicy="no-referrer-when-downgrade"
+              referrerPolicy="no-referrer-when-downgrade"
             ></iframe>
           </div>
         </div>

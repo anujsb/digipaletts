@@ -1,5 +1,5 @@
 import "./App.css";
-import { BrowserRouter } from "react-router-dom";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import Info from "./components/Info";
@@ -13,32 +13,25 @@ import DigitalMarketing from "./components/Services/DigitalMarketing";
 import SocialMarketing from "./components/Services/SocialMarketing";
 import PaidAdvertising from "./components/Services/PaidAdvertising";
 import Overlaymenu from "./components/Extra/FullscreenOverlayNav";
-// import About from "./components/About";
-// import FullscreenOverlayNav from "./components/Extra/FullscreenOverlayNav";
+import About from "./components/Pages/About";
 
 function App() {
   return (
     <BrowserRouter>
-      {/* <div className='justify-center items-center'>
-        
-        </div> */}
-      <Navbar />
-      {/* <FullscreenOverlayNav /> */}
-      <div className="justify-center items-center">
-        <Hero />
-        <Info />
-        <Services />
-        <Blog />
-        <Testimonial />
-        <Faq />
-        <Contact />
-        <Footer />
-        {/* <DigitalMarketing /> */}
-        {/* <SocialMarketing /> */}
-        {/* <PaidAdvertising /> */}
-        {/* <About/> */}
-        <Overlaymenu />
-      </div>
+      <Routes>
+        <Route path="/" element={<div className="justify-center items-center">
+          <Navbar />
+          <Hero />
+          <Info />
+          <Services />
+          <Blog />
+          <Testimonial />
+          <Faq />
+          <Contact />
+          <Footer />
+        </div>} />
+        <Route path="/About" element={<About />} />
+      </Routes>
     </BrowserRouter>
   );
 }

@@ -1,42 +1,42 @@
 import React from "react";
 
-
 const About = () => {
-
-    return(
-    <div className=" bg- bg-yellow-300">
-      
-      <section className=" h-screen">
-          <div className=" mx-auto max-w-7xl ">
-              <div className="grid items-center grid-cols-1 gap-12 lg:grid-cols-2">
-                  <div className="px-4 sm:px-6 lg:px-8">
-                      <p className="text-base font-semibold tracking-wider text-blue-600 uppercase">digipalettes</p>
-                      <h1 className="mt-4 text-4xl font-bold text-black lg:mt-8 sm:text-6xl xl:text-8xl">Digital Marketing </h1>
-                      <p className="mt-4 text-base text-black lg:mt-8 sm:text-xl">Everyone is going digital, so should your business, because your clients are searching for you online.</p>
-                  </div>
-  
-                  <div>
-                      <img className="w-full" src="https://i.postimg.cc/85fHHgxT/dm.jpg" alt="" />
-                  </div>
-              </div>
-              <div className="grid items-center bg-yellow-300 ">
-                  
-  
-                  <div>
-                      {/* <img className="w-full" src="https://i.postimg.cc/85fHHgxT/dm.jpg" alt="" /> */}
-                  </div>
-
-                  <div className="p-10 m-10  sm:p-6 lg:p-8">
-                      {/* <p className="text-base font-semibold tracking-wider text-blue-600 uppercase">digipalettes</p> */}
-                      {/* <h1 className="mt-4 text-4xl font-bold text-black lg:mt-8 sm:text-6xl xl:text-8xl">Digital Marketing </h1> */}
-                      <p className="mt-4 text-base text-black lg:mt-8 sm:text-xl">Whether you run a small business or a big company, we're here to help your online presence grow. We've got the skills and tools to make sure you succeed online. Our team can boost your visibility using strategies like digital marketing, SEO, and social media. We don't just get you noticed but  we help you stand out from the competition and build strong connections with your customers. Let us be your partner in navigating the online world and achieving success in a simple and effective way.</p>
-                  </div>
-              </div>
-          </div>
-      </section>
-  </div>
-  
-    )
-}
+  return (
+    <section className="p-10 text-black align-middle bg-yellow-300 h-auto ">
+      <h1 className="text-7xl">About Us</h1>
+      <div className="">
+        <div className="m-10">
+          <h1 className="m-5">Our Inspiration</h1>
+          <p>
+            Helping Businesses Succeed: A genuine desire to contribute to the
+            success of other businesses by providing them with effective digital
+            marketing solutions can be a powerful source of motivation.
+          </p>
+        </div>
+        <div className="m-10">
+          <h1 className="m-5">Our Goals</h1>
+          <p>
+            The ultimate goal of Digi Palettes is to be a strategic partner for
+            businesses, driving online success by increasing brand awareness,
+            generating leads, acquiring customers, fostering engagement, and
+            contributing to overall revenue growth through innovative,
+            data-driven strategies.
+          </p>
+        </div>
+        <div className="m-10">
+          <h1 className="m-5">What made us decide to become 360-degree marketers?</h1>
+          <p>
+            Passion for Marketing The Founders May Have A Genuine Passion For
+            Marketing And A Desire To Help Businesses Grow By Leveraging Digital
+            Channels. Ultimately, The Decision To Start A Digital Marketing
+            Agency Is Often A Combination Of Passion, Skills, Market Analysis,
+            And A Desire To Make A Positive Impact On Businesses In The Digital
+            Landscape.
+          </p>
+        </div>
+      </div>
+    </section>
+  );
+};
 
 export default About;
