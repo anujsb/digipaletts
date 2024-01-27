@@ -5,7 +5,7 @@ const DigitalMarketing = () => {
     window.scrollTo(0, 0);
   }, []);
   return (
-    <section className="bg-green-400 h-full text-black">
+    <section className=" bg-purple-400 h-full text-black">
       <div className=" mx-auto max-w-7xl ">
         <div className="grid items-center grid-cols-1 gap-12 lg:grid-cols-2">
           <div className="px-4 sm:px-6 lg:px-8">

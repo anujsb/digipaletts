@@ -16,6 +16,7 @@ import SEO from "./components/Services/SEO";
 import Website from "./components/Services/Website";
 import Branding from "./components/Services/Branding";
 import GraphicDesigning from "./components/Services/GraphicDesigning";
+import VideoProduction from "./components/Services/VideoProduction";
 import Overlaymenu from "./components/Extra/FullscreenOverlayNav";
 import About from "./components/Pages/About";
 
@@ -129,6 +130,18 @@ function App() {
             <div className="justify-center items-center">
               <Navbar />
               <GraphicDesigning />
+              <Contact />
+              <Footer />
+              <Overlaymenu />
+            </div>
+          }
+        />
+        <Route
+          path="/VideoProduction"
+          element={
+            <div className="justify-center items-center">
+              <Navbar />
+              <VideoProduction />
               <Contact />
               <Footer />
               <Overlaymenu />

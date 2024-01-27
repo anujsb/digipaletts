@@ -1,27 +1,34 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <link href="https://api.fontshare.com/v2/css?f[]=chillax@1,600,500,300,700,400,200&display=swap" rel="stylesheet">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>nuj</title>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
-    <script type="text/javascript">
-      (function(d, t) {
-          var v = d.createElement(t), s = d.getElementsByTagName(t)[0];
-          v.onload = function() {
-            window.voiceflow.chat.load({
-              verify: { projectID: '65b0e8a089b0787e9e08eff2' },
-              url: 'https://general-runtime.voiceflow.com',
-              versionID: 'production'
-            });
-          }
-          v.src = "https://cdn.voiceflow.com/widget/bundle.mjs"; v.type = "text/javascript"; s.parentNode.insertBefore(v, s);
-      })(document, 'script');
-    </script>
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <link href="https://api.fontshare.com/v2/css?f[]=chillax@1,600,500,300,700,400,200&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>nuj</title>
+</head>
+
+<body>
+  <div id="root"></div>
+  <script type="module" src="/src/main.jsx"></script>
+  <script type="text/javascript">
+    (function (d, t) {
+      var v = d.createElement(t), s = d.getElementsByTagName(t)[0];
+      v.onload = function () {
+        window.voiceflow.chat.load({
+          verify: { projectID: '65b0e8a089b0787e9e08eff2' },
+          url: 'https://general-runtime.voiceflow.com',
+          versionID: 'production'
+        });
+      }
+      v.src = "https://cdn.voiceflow.com/widget/bundle.mjs"; v.type = "text/javascript"; s.parentNode.insertBefore(v, s);
+    })(document, 'script');
+  </script>
+  <a href="https://wa.me/2348100000000" class="whatsapp_float" target="_blank" rel="noopener noreferrer">
+    <i class="fa fa-whatsapp whatsapp-icon"></i>
+  </a>
+</body>
+
 </html>

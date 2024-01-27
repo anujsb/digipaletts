@@ -41,7 +41,7 @@ const servicesData = [
   },
   {
     title: "Video Production",
-    link: "/DigitalMarketing",
+    link: "/VideoProduction",
     images: ["previous.webp", "next.webp"],
   },
 ];

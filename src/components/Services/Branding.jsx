@@ -24,7 +24,7 @@ const DigitalMarketing = () => {
           <div>
             <img
               className="w-full"
-              src="https://i.postimg.cc/htX62zx5/IMG-20240114-WA0011.jpg"
+              src="https://i.postimg.cc/05Bm1BXh/Whats-App-Image-2024-01-14-at-12-58-41-aa2f15d0.jpg"
               alt=""
             />
           </div>
