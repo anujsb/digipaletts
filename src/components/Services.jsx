@@ -11,7 +11,7 @@ const servicesData = [
   },
   {
     title: "Social Media Marketing",
-    link: "/DigitalMarketing",
+    link: "/SocialMarketing",
     images: ["previous.webp", "next.webp"],
   },
   {

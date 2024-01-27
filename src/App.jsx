@@ -60,6 +60,18 @@ function App() {
             </div>
           }
         />
+        <Route
+          path="/SocialMarketing"
+          element={
+            <div>
+              <Navbar />
+              <SocialMarketing />
+              <Contact />
+              <Footer />
+              <Overlaymenu />
+            </div>
+          }
+        />
       </Routes>
     </BrowserRouter>
   );
