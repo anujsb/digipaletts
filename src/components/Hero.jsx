@@ -42,7 +42,7 @@ function Hero() {
         style={{ backgroundImage: `url(${slides[currentIndex].url})` }}
         className='w-full h-full rounded-2xl bg-center bg-cover duration-1000 relative'
       >
-        <div className="absolute inset-0 flex items-center justify-center text-black text-4xl font-bold m-20 text-center">
+        <div className="absolute inset-0 flex items-center justify-center text-black text-4xl font-bold m-32 text-center duration-1000">
           {slides[currentIndex].text}
         </div>
       </div>
