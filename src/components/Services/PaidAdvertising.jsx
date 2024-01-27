@@ -1,67 +1,69 @@
-
-
-import React from "react";
+import React, { useEffect } from "react";
 
 const DigitalMarketing = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
-    <div className="bg-gray-100 min-h-screen p-4 sm:p-8 lg:p-12 text-black">
-      <div className="max-w-2xl mx-auto bg-white p-6 rounded-md shadow-lg">
-        <h1 className="text-3xl font-bold mb-6">Welcome To Digi Palettes</h1>
+    <section className="bg-green-400 h-full text-black">
+      <div className=" mx-auto max-w-7xl ">
+        <div className="grid items-center grid-cols-1 gap-12 lg:grid-cols-2">
+          <div className="px-4 sm:px-6 lg:px-8">
+            <p className="text-base font-semibold tracking-wider text-blue-600 uppercase">
+              digipalettes
+            </p>
+            <h1 className="mt-4 text-4xl font-bold text-black lg:mt-8 sm:text-6xl xl:text-8xl">
+              Paid Advertising{" "}
+            </h1>
+            <p className="mt-4 text-base text-black lg:mt-8 sm:text-xl">
+              Paid advertising provides immediate results. It is possibly the
+              quickest method of increasing website visitors.
+            </p>
+          </div>
 
-        <p className="text-lg mb-4">
-          A team of passionate entrepreneurs, digital marketers, artists, and
-          web developers. In a landscape crowded with digital marketing
-          agencies, we stand out as a rare breed, offering genuine and authentic
-          consultation.
-        </p>
+          <div>
+            <img
+              className="w-full"
+              src="https://i.postimg.cc/HxqjhfBg/Whats-App-Image-2024-01-14-at-12-58-42-a22e42f4.jpg"
+              alt=""
+            />
+          </div>
+        </div>
+        <div className="grid items-center">
+          <div>
+            {/* <img className="w-full" src="https://i.postimg.cc/85fHHgxT/dm.jpg" alt="" /> */}
+          </div>
 
-        <p className="text-lg mb-4">
-          Navigating the intricacies of digital marketing can be a challenge,
-          and even professionals may find themselves unaware of the
-          technicalities involved. At Digi Palettes, we are committed to not
-          only guiding you through the process but also dedicated to nurturing
-          your business from its nascent stages to a fully established presence.
-        </p>
-
-        <p className="text-lg mb-6">
-          Join us on a journey where passion meets expertise, and let Digi
-          Palettes be the brushstroke that paints your business success story.
-        </p>
-
-        <h2 className="text-2xl font-bold mb-4">Our Inspiration</h2>
-
-        <p className="text-lg mb-6">
-          Helping businesses succeed: A genuine desire to contribute to the
-          success of other businesses by providing them with effective digital
-          marketing solutions can be a powerful source of motivation.
-        </p>
-
-        <h2 className="text-2xl font-bold mb-4">Our Goals</h2>
-
-        <p className="text-lg mb-6">
-          The ultimate goal of Digi Palettes is to be a strategic partner for
-          businesses, driving online success by increasing brand awareness,
-          generating leads, acquiring customers, fostering engagement, and
-          contributing to overall revenue growth through innovative, data-driven
-          strategies.
-        </p>
-
-        <h2 className="text-2xl font-bold mb-4">
-          What Made Us Decide to Become 360-Degree Marketers?
-        </h2>
-
-        <p className="text-lg mb-6">
-          Passion for Marketing: The founders may have a genuine passion for
-          marketing and a desire to help businesses grow by leveraging digital
-          channels. Ultimately, the decision to start a digital marketing agency
-          is often a combination of passion, skills, market analysis, and a
-          desire to make a positive impact on businesses in the digital
-          landscape.
-        </p>
-
-        {/* ... (Rest of the content) */}
+          <div className="p-10 m-10  sm:p-6 lg:p-8">
+            {/* <p className="text-base font-semibold tracking-wider text-blue-600 uppercase">digipalettes</p> */}
+            {/* <h1 className="mt-4 text-4xl font-bold text-black lg:mt-8 sm:text-6xl xl:text-8xl">Digital Marketing </h1> */}
+            <h2 className="text-lg mb-4">How does Paid advertising Work?</h2>
+            <p className="text-lg mb-4">
+              Paid search advertising places sponsored ads at the top and side
+              of search results pages, giving them more visibility and
+              prominence than organic results. For example, if you search for a
+              product or service online, you may see ads from companies that
+              match your search terms.Search marketing reaches consumers at the
+              optimal time: when they are open to fresh information. Unlike the
+              majority of digital advertising, PPC advertising is not invasive
+              and does not interfere with users' tasks.
+            </p>
+            <h2 className="text-lg mb-4">Why Paid Advertising is So Important ?</h2>
+            <p className="text-lg mb-4">
+              Paid advertising (also known as Search Engine Marketing) has
+              emerged as a key online marketing tactic for expanding a
+              business's reach as more and more customers conduct product
+              research and purchase online. As a matter of fact, most new
+              visitors to a website discover it through a search engine query.
+              Search engine marketing is an effective approach for a business to
+              spend its marketing budget because marketers only pay for
+              impressions that lead to visitors. Additionally, every visitor
+              helps the website rank higher in natural search results.
+            </p>
+          </div>
+        </div>
       </div>
-    </div>
+    </section>
   );
 };
 

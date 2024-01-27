@@ -15,29 +15,6 @@ const Info = () => {
               <p className="text-5xl font-bold text-black  mt-4 md:px-10 sm:p-0 sm:my-5  lg:mt-8">
                 Welcome To Digi Palettes
               </p>
-              {/* <p className="text-black text text-xl subpixel-antialiased font-medium tracking-wide mt-4 md:p-10 sm:p-0 sm:my-5  lg:mt-8 sm:text-xl ">
-                Join Us On A Journey Where Passion Meets Expertise, And Let Digi
-                Palettes Be The Brushstroke That Paints Your Business Success
-                Story.
-              </p>
-              <ul className="text-black subpixel-antialiased tracking-wide sm:text-xl lg:mt-8 md:mt-4 sm:px-0 md:px-10  sm:mt-10 text-base  ">
-                <li className="text-black subpixel-antialiased tracking-wide sm:text-xl lg:mt-2 md:mt-2 sm:px-0 md:px-10  sm:mt-10 text-base  ">
-                  *Passionate Multidisciplinary Team: Our dynamic team includes
-                  dedicated entrepreneurs, savvy digital marketers, creative
-                  artists, and skilled web developers.
-                </li>
-                <li className="text-black subpixel-antialiased tracking-wide sm:text-xl lg:mt-2 md:mt-2 sm:px-0 md:px-10  sm:mt-10 text-base  ">
-                  *Unparalleled Differentiation: Amidst the saturation of
-                  digital marketing agencies, Digi Palettes shines as a rare
-                  breed, offering authentic and genuine consultation services.
-                </li>
-                <li className="text-black subpixel-antialiased tracking-wide sm:text-xl lg:mt-2 md:mt-2 sm:px-0 md:px-10  sm:mt-10 text-base  ">
-                  *Expert Navigation of Digital Complexities: Navigating the
-                  intricate landscape of digital marketing can be challenging.
-                  At Digi Palettes, our professionals excel in understanding and
-                  addressing these technicalities.
-                </li>
-              </ul> */}
               <h2 className="text-2xl font-bold m-4 text-black">
                 Join Us On A Journey Where Passion Meets Expertise, And Let Digi
                 Palettes Be The Brushstroke That Paints Your Business Success

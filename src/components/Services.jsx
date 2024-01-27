@@ -16,27 +16,27 @@ const servicesData = [
   },
   {
     title: "Paid Advertising",
-    link: "/DigitalMarketing",
+    link: "/PaidAdvertising",
     images: ["previous.webp", "next.webp"],
   },
   {
     title: "Search Engine Optimisation",
-    link: "/DigitalMarketing",
+    link: "/SEO",
     images: ["previous.webp", "next.webp"],
   },
   {
     title: "Website and App Development",
-    link: "/DigitalMarketing",
+    link: "/Website",
     images: ["previous.webp", "next.webp"],
   },
   {
     title: "Branding",
-    link: "/DigitalMarketing",
+    link: "/Branding",
     images: ["previous.webp", "next.webp"],
   },
   {
     title: "Graphic Designing",
-    link: "/DigitalMarketing",
+    link: "/GraphicDesigning",
     images: ["previous.webp", "next.webp"],
   },
   {

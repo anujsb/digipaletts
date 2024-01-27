@@ -12,7 +12,10 @@ import Blog from "./components/Blog";
 import DigitalMarketing from "./components/Services/DigitalMarketing";
 import SocialMarketing from "./components/Services/SocialMarketing";
 import PaidAdvertising from "./components/Services/PaidAdvertising";
-// import SEO from "./components/Services/SEO";
+import SEO from "./components/Services/SEO";
+import Website from "./components/Services/Website";
+import Branding from "./components/Services/Branding";
+import GraphicDesigning from "./components/Services/GraphicDesigning";
 import Overlaymenu from "./components/Extra/FullscreenOverlayNav";
 import About from "./components/Pages/About";
 
@@ -40,7 +43,7 @@ function App() {
         <Route
           path="/About"
           element={
-            <div>
+            <div className="justify-center items-center">
               <About />
               <Contact />
               <Footer />
@@ -51,7 +54,7 @@ function App() {
         <Route
           path="/DigitalMarketing"
           element={
-            <div>
+            <div className="justify-center items-center">
               <Navbar />
               <DigitalMarketing />
               <Contact />
@@ -63,9 +66,69 @@ function App() {
         <Route
           path="/SocialMarketing"
           element={
-            <div>
+            <div className="justify-center items-center">
               <Navbar />
               <SocialMarketing />
+              <Contact />
+              <Footer />
+              <Overlaymenu />
+            </div>
+          }
+        />
+        <Route
+          path="/PaidAdvertising"
+          element={
+            <div className="justify-center items-center">
+              <Navbar />
+              <PaidAdvertising />
+              <Contact />
+              <Footer />
+              <Overlaymenu />
+            </div>
+          }
+        />
+        <Route
+          path="/SEO"
+          element={
+            <div className="justify-center items-center">
+              <Navbar />
+              <SEO />
+              <Contact />
+              <Footer />
+              <Overlaymenu />
+            </div>
+          }
+        />
+        <Route
+          path="/Website"
+          element={
+            <div className="justify-center items-center">
+              <Navbar />
+              <Website />
+              <Contact />
+              <Footer />
+              <Overlaymenu />
+            </div>
+          }
+        />
+        <Route
+          path="/Branding"
+          element={
+            <div className="justify-center items-center">
+              <Navbar />
+              <Branding />
+              <Contact />
+              <Footer />
+              <Overlaymenu />
+            </div>
+          }
+        />
+        <Route
+          path="/GraphicDesigning"
+          element={
+            <div className="justify-center items-center">
+              <Navbar />
+              <GraphicDesigning />
               <Contact />
               <Footer />
               <Overlaymenu />

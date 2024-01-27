@@ -1,67 +1,91 @@
-
-
-import React from "react";
+import React, { useEffect } from "react";
 
 const DigitalMarketing = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
-    <div className="bg-gray-100 min-h-screen p-4 sm:p-8 lg:p-12 text-black">
-      <div className="max-w-2xl mx-auto bg-white p-6 rounded-md shadow-lg">
-        <h1 className="text-3xl font-bold mb-6">Welcome To Digi Palettes</h1>
+    <section className="bg-green-400 h-full text-black">
+      <div className=" mx-auto max-w-7xl ">
+        <div className="grid items-center grid-cols-1 gap-12 lg:grid-cols-2">
+          <div className="px-4 sm:px-6 lg:px-8">
+            <p className="text-base font-semibold tracking-wider text-blue-600 uppercase">
+              digipalettes
+            </p>
+            <h1 className="mt-4 text-4xl font-bold text-black lg:mt-8 sm:text-6xl xl:text-8xl">
+              Website Design and Development{" "}
+            </h1>
+            <p className="mt-4 text-base text-black lg:mt-8 sm:text-xl">
+              Website acts as your virtual store in the Digital World. Not
+              having a website will hurt your Business growth.
+            </p>
+          </div>
 
-        <p className="text-lg mb-4">
-          A team of passionate entrepreneurs, digital marketers, artists, and
-          web developers. In a landscape crowded with digital marketing
-          agencies, we stand out as a rare breed, offering genuine and authentic
-          consultation.
-        </p>
+          <div>
+            <img
+              className="w-full"
+              src="https://i.postimg.cc/htX62zx5/IMG-20240114-WA0011.jpg"
+              alt=""
+            />
+          </div>
+        </div>
+        <div className="grid items-center">
+          <div>
+            {/* <img className="w-full" src="https://i.postimg.cc/85fHHgxT/dm.jpg" alt="" /> */}
+          </div>
 
-        <p className="text-lg mb-4">
-          Navigating the intricacies of digital marketing can be a challenge,
-          and even professionals may find themselves unaware of the
-          technicalities involved. At Digi Palettes, we are committed to not
-          only guiding you through the process but also dedicated to nurturing
-          your business from its nascent stages to a fully established presence.
-        </p>
-
-        <p className="text-lg mb-6">
-          Join us on a journey where passion meets expertise, and let Digi
-          Palettes be the brushstroke that paints your business success story.
-        </p>
-
-        <h2 className="text-2xl font-bold mb-4">Our Inspiration</h2>
-
-        <p className="text-lg mb-6">
-          Helping businesses succeed: A genuine desire to contribute to the
-          success of other businesses by providing them with effective digital
-          marketing solutions can be a powerful source of motivation.
-        </p>
-
-        <h2 className="text-2xl font-bold mb-4">Our Goals</h2>
-
-        <p className="text-lg mb-6">
-          The ultimate goal of Digi Palettes is to be a strategic partner for
-          businesses, driving online success by increasing brand awareness,
-          generating leads, acquiring customers, fostering engagement, and
-          contributing to overall revenue growth through innovative, data-driven
-          strategies.
-        </p>
-
-        <h2 className="text-2xl font-bold mb-4">
-          What Made Us Decide to Become 360-Degree Marketers?
-        </h2>
-
-        <p className="text-lg mb-6">
-          Passion for Marketing: The founders may have a genuine passion for
-          marketing and a desire to help businesses grow by leveraging digital
-          channels. Ultimately, the decision to start a digital marketing agency
-          is often a combination of passion, skills, market analysis, and a
-          desire to make a positive impact on businesses in the digital
-          landscape.
-        </p>
-
-        {/* ... (Rest of the content) */}
+          <div className="p-10 m-10  sm:p-6 lg:p-8">
+            <h2 className="text-xl mb-6">
+              Do You Need a Website for Your Business?
+            </h2>
+            <p className="text-lg mb-6">
+              Oh come on , it’s as crucial as having an email id , phone number
+              or a physical store. Without a website you are working against
+              your business objective. Imagine , How can you make a business if
+              your store is not visible to your target customers Having a
+              Website looks professional rather than just being the ‘corner
+              shop’ down the street, having a website gives the impression that
+              you are serious and ready to do business with all kinds of
+              customers, without a website it’s much harder for people to take
+              your business seriously .
+            </p>
+            <h2>Website Types</h2>
+            <ul className="text-lg m-6 text-black">
+              <li className="text-lg mb-6">
+                <strong>Business Website</strong>A business website is an online
+                platform that promotes a company or organisation on the
+                internet. It functions as a digital shop, allowing prospective
+                customers to learn about the company, browse items or services,
+                and make purchases. A business website's objective is to tell
+                potential customers about the company's products or services, as
+                well as its values. It also allows clients to contact the
+                company, make inquiries, and place orders. In addition to its
+                primary role as a marketing and sales tool, a business website
+                can be used to communicate with stakeholders such as employees,
+                partners, and investors.
+              </li>
+              <li className="text-lg mb-6">
+                <strong>E-commerce Website</strong>This website is an online
+                shopping platform where people can purchase and sell products.
+                Amazon, Flipkart, and Olx are some instances of e-commerce
+                sites. E-commerce has a lot of potential to grow because
+                individuals nowadays prefer to shop online due to their hectic
+                lifestyles.
+              </li>
+              <li className="text-lg mb-6">
+                <strong>Portfolio Websites</strong> These websites allow you to
+                present your greatest work to a professional. It is a more
+                personal website where creative individuals contribute their
+                talents to represent their profession. A portfolio website is a
+                highly imaginative one. For example, I am a writer seeking a
+                position in digital content authoring. Then I may create a
+                portfolio website that would highlight my many writing styles.
+              </li>
+            </ul>
+          </div>
+        </div>
       </div>
-    </div>
+    </section>
   );
 };
 

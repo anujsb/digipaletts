@@ -16,8 +16,7 @@ const SocialMarketing = () => {
               Social Media Marketing{" "}
             </h1>
             <p className="mt-4 text-base text-black lg:mt-8 sm:text-xl">
-              Everyone is going digital, so should your business, because your
-              clients are searching for you online.
+              Social Media increases trust by connecting the audience to brands.
             </p>
           </div>
 
@@ -37,16 +36,39 @@ const SocialMarketing = () => {
           <div className="p-10 m-10  sm:p-6 lg:p-8">
             {/* <p className="text-base font-semibold tracking-wider text-blue-600 uppercase">digipalettes</p> */}
             {/* <h1 className="mt-4 text-4xl font-bold text-black lg:mt-8 sm:text-6xl xl:text-8xl">Digital Marketing </h1> */}
+            <h2>Why should you go for Social Media Marketing ?</h2>
             <p className="mt-4 text-base text-black lg:mt-8 sm:text-xl">
-              Whether you run a small business or a big company, we're here to
-              help your online presence grow. We've got the skills and tools to
-              make sure you succeed online. Our team can boost your visibility
-              using strategies like digital marketing, SEO, and social media. We
-              don't just get you noticed but we help you stand out from the
-              competition and build strong connections with your customers. Let
-              us be your partner in navigating the online world and achieving
-              success in a simple and effective way.
+              Because social media is where consumers and buyers interact,
+              social media marketing is more crucial than ever. In essence,
+              individuals are contacting one another for direction, counsel,
+              knowledge, materials, and a lot more. Individuals who deliver all
+              of that first establish themselves as authorities on the issue and
+              prominent thinkers. Their viewpoints influence choices.
             </p>
+            <p>
+              As a marketing leader, you want those who are connected to your
+              brand—such as customer and staff advocates—to spearhead these
+              discussions. Getting brand champions to create and lead these
+              social media networks is your aim.
+            </p>
+            <h1>Some Important Facts about it?</h1>
+            <ul className="text-lg m-6 text-black">
+              <li className="text-lg mb-6">
+                <strong></strong>It is projected that 4.89 billion people would
+                use social media globally in 2023.
+              </li>
+              <li className="text-lg mb-6">
+                <strong></strong>Every month, the average person switches
+                between seven different social media platforms.
+              </li>
+              <li className="text-lg mb-6">
+                <strong></strong> Social media usage among internet users is at
+                an all-time high of 151 minutes per day.
+              </li>
+              <li className="text-lg mb-6">
+                <strong></strong> More than half of all social media users use the platform to research products before purchasing them. (Source: Global Web Index). 
+              </li>
+            </ul>
           </div>
         </div>
       </div>
