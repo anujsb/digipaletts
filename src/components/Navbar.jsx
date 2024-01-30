@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { Link, useNavigate } from "react-router-dom";
 // import { navLinks } from '../constants/constants';
-import FullscreenOverlayNav from "./Extra/FullscreenOverlayNav";
+import FullscreenOverlayNav from "./ham/FullscreenOverlayNav";
 import { logo } from "../assets/images";
 
 const Navbar = () => {

@@ -9,9 +9,7 @@ const VideoProduction = () => {
       <div className=" mx-auto max-w-7xl ">
         <div className="grid items-center grid-cols-1 gap-12 lg:grid-cols-2">
           <div className="px-4 sm:px-6 lg:px-8">
-            <p className="text-base font-semibold tracking-wider text-blue-600 uppercase">
-              digipalettes
-            </p>
+            
             <h1 className="mt-4 text-4xl font-bold text-black lg:mt-8 sm:text-6xl xl:text-8xl">
               Video Marketing Services{" "}
             </h1>

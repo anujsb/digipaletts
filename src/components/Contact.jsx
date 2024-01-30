@@ -10,11 +10,12 @@ const Contact = () => {
           >
             <img
               src={
-                "https://res.cloudinary.com/dt3lzix8e/image/upload/v1702808965/contact_pdfoh6.jpg"
+                // "https://res.cloudinary.com/dt3lzix8e/image/upload/v1702808965/contact_pdfoh6.jpg"
+                "https://i.postimg.cc/j5Wk7F71/Whats-App-Image-2024-01-30-at-09-27-31-a86ffb1e.jpg"
               }
               alt="team"
               width=""
-              className="object-contain overflow-hidden item-center content-center"
+              className="object-contain overflow-hidden item-center content-center "
             />
             {/* <GoogleMap center={center} zoom={13}/> */}
           </div>

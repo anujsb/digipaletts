@@ -70,3 +70,6 @@ function Hero() {
 }
 
 export default Hero;
+
+
+// https://chat.openai.com/share/6e277503-c9ee-4c78-8fdf-f5e3c9a11160

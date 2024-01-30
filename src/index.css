@@ -1,3 +1,4 @@
+@import url('https://fonts.cdnfonts.com/css/raleway-5');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -17,11 +18,7 @@ body {
 /* } */
 
 :root {
-  /* font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif; */
-  font-family: 'Chillax', sans-serif;
-  /* font-family: 'Excon', sans-serif; */
-  /* font-family: 'Montserrat', sans-serif; */
-  /* font-family: 'Nunito', sans-serif; */
+  font-family: 'Raleway', sans-serif;
   line-height: 1.5;
   font-weight: 400;
 
@@ -105,8 +102,8 @@ button:focus-visible {
 
 .logo {
 
-  width: 210px;
-  height: 80px;
+  width: 190px;
+  height: 70px;
   display: block;
   /* Make sure it's a block-level element */
   /* margin: 10px;  */
@@ -574,7 +571,7 @@ button:focus-visible {
   height: 100%;
   width: 100%;
   /* background: linear-gradient(-135deg, #ffe45c, #ffffff); */
-  background: #202020;
+  background: #dcd918;
   /* background: linear-gradient(375deg, #1cc7d0, #2ede98); */
   /* clip-path: circle(25px at calc(0% + 45px) 45px); */
   clip-path: circle(25px at calc(100% - 45px) 45px);
@@ -672,12 +669,13 @@ input[type="checkbox"]{
   font-weight: 600;
 }
 
+
 .whatsapp_float {
   position: fixed;
   width: 60px;
   height: 60px;
-  bottom: 40px;
-  right: 40px;
+  bottom: 30px;
+  left: 40px;
   background-color: #25d366;
   color: #FFF;
   border-radius: 50px;
@@ -705,3 +703,25 @@ input[type="checkbox"]{
       font-size: 22px;
   }
 }
+
+/* 
+slider animation hero section text
+=============================================================================================
+============================================================================================= */
+
+/* Hero.css */
+.transition-transform {
+  transition: transform 2.0s ease-in-out;
+}
+
+/* Slide in from right */
+.transition-transform.next-slide {
+  transform: translateX(-100%);
+}
+
+/* Slide in from left */
+.transition-transform.prev-slide {
+  transform: translateX(100%);
+}
+
+

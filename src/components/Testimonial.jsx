@@ -6,7 +6,7 @@ const Testimonial = () => {
       <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
         <div className="flex flex-col items-center">
           <div className="text-center">
-            <p className="text-lg font-medium text-gray-600 font-pj">2,157 people have said how good Digipalettes is</p>
+            {/* <p className="text-lg font-medium text-gray-600 font-pj">2,157 people have said how good Digipalettes is</p> */}
             <h2 className="mt-4 text-3xl font-bold text-gray-900 sm:text-4xl xl:text-5xl font-pj">Our happy clients say about us</h2>
           </div>
 

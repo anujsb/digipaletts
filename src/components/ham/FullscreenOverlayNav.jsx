@@ -2,6 +2,7 @@
 
 import React, { useState } from 'react';
 import { RxHamburgerMenu } from "react-icons/rx";
+import { Link  } from 'react-router-dom';
 
 const FullscreenOverlayNav = () => {
   const [active, setActive] = useState(false);
@@ -14,11 +15,13 @@ const FullscreenOverlayNav = () => {
       </label>
       <div className="wrapper">
         <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Services</a></li>
-          <li><a href="#">Gallery</a></li>
-          <li><a href="#">Feedback</a></li>
+          <li><Link to="/Hero" role="button">Home</Link></li>
+          <li><Link to="/Info" role="button">About</Link></li>
+          <li><Link to="/Services" role="button">Services</Link></li>
+          <li><Link to="/Blog" role="button">Blog</Link></li>
+          <li><Link to="/Testimonial" role="button">Testimonial</Link></li>
+          <li><Link to="/Faq" role="button">FAQ</Link></li>
+          <li><Link to="/Contact" role="button">Contact Us</Link></li>
         </ul>
       </div>
     </div>
