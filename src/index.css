@@ -571,7 +571,7 @@ button:focus-visible {
   height: 100%;
   width: 100%;
   /* background: linear-gradient(-135deg, #ffe45c, #ffffff); */
-  background: #dcd918;
+  background: #F6C612;
   /* background: linear-gradient(375deg, #1cc7d0, #2ede98); */
   /* clip-path: circle(25px at calc(0% + 45px) 45px); */
   clip-path: circle(25px at calc(100% - 45px) 45px);

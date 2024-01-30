@@ -5,7 +5,7 @@ import { RxDotFilled } from 'react-icons/rx';
 function Hero() {
   const slides = [
     {
-      url: 'https://i.postimg.cc/P5VHyGb2/IMG-20240114-WA0009.jpg',
+      url: 'https://i.postimg.cc/yNxtPXR5/Whats-App-Image-2024-01-28-at-22-47-50-47521fcf.jpg',
       text: 'We are dedicated to your growth and Progress.',
     },
     {
