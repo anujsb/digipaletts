@@ -232,7 +232,7 @@ const Footer = () => {
 
           <div>
             <p className="text-sm font-semibold tracking-widest text-gray-400 uppercase">
-              Help
+              Services.
             </p>
 
             <ul className="mt-6 space-y-4">
@@ -243,7 +243,7 @@ const Footer = () => {
                   className="flex text-base text-black transition-all duration-200 hover:text-yellow-600 focus:text-yellow-600"
                 >
                   {" "}
-                  Customer Support{" "}
+                  Digital Marketing{" "}
                 </a>
               </li>
 
@@ -254,7 +254,7 @@ const Footer = () => {
                   className="flex text-base text-black transition-all duration-200 hover:text-yellow-600 focus:text-yellow-600"
                 >
                   {" "}
-                  Delivery Details{" "}
+                  Social Media marketing{" "}
                 </a>
               </li>
 
@@ -265,7 +265,7 @@ const Footer = () => {
                   className="flex text-base text-black transition-all duration-200 hover:text-yellow-600 focus:text-yellow-600"
                 >
                   {" "}
-                  Terms & Conditions{" "}
+                  Video Marketing Services{" "}
                 </a>
               </li>
 
@@ -276,7 +276,47 @@ const Footer = () => {
                   className="flex text-base text-black transition-all duration-200 hover:text-yellow-600 focus:text-yellow-600"
                 >
                   {" "}
-                  Privacy Policy{" "}
+                  SEO Services{" "}
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#"
+                  title=""
+                  className="flex text-base text-black transition-all duration-200 hover:text-yellow-600 focus:text-yellow-600"
+                >
+                  {" "}
+                  Paid Advertising{" "}
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#"
+                  title=""
+                  className="flex text-base text-black transition-all duration-200 hover:text-yellow-600 focus:text-yellow-600"
+                >
+                  {" "}
+                  Branding{" "}
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#"
+                  title=""
+                  className="flex text-base text-black transition-all duration-200 hover:text-yellow-600 focus:text-yellow-600"
+                >
+                  {" "}
+                  Website Design and Development{" "}
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#"
+                  title=""
+                  className="flex text-base text-black transition-all duration-200 hover:text-yellow-600 focus:text-yellow-600"
+                >
+                  {" "}
+                  Graphics designing{" "}
                 </a>
               </li>
             </ul>
