@@ -1,22 +1,25 @@
 import React from "react";
 import { logo } from "../assets/images";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
     <section className="py-10 bg-gray-50 sm:pt-16 lg:pt-24">
       <div className="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
-        <div className="grid grid-cols-2 md:col-span-3 lg:grid-cols-5 gap-y-16 gap-x-12 ">
-          <div className="col-span-2 md:col-span-3 lg:col-span-2 lg:pr-8 text-black">
+        {/* <div className="grid grid-cols-2 md:col-span-3 lg:grid-cols-5 gap-y-16 gap-x-12 "> */}
+        <div className="grid grid-rows-1 md:grid-cols-3 lg:grid-cols-3 sm:grid-cols-1 gap-2 text-center ">
+          {/* <div className="col-span-2 md:col-span-3 lg:col-span-2 lg:pr-8 text-black content-center"> */}
+          <div className="lg:pr-8 text-black content-center">
             {/* <img src={logo} alt="logo" className="logo bg-black bg-opacity-50 border-stone-500 rounded-lg" /> */}
             <p className="text-sm font-semibold tracking-widest text-gray-400 uppercase">
               Contact Info
             </p>
-            <ul className="mt-6 space-y-4">
+            <ul className="mt-6 space-y-4 ">
               <li>
                 <a
                   href="#"
                   title=""
-                  className="flex text-base text-black transition-all duration-200 hover:text-yellow-600 focus:text-yellow-600"
+                  className="flex justify-center text-base text-black transition-all duration-200 hover:text-yellow-600 focus:text-yellow-600 "
                 >
                   {" "}
                   <svg
@@ -43,7 +46,7 @@ const Footer = () => {
                 <a
                   href="#"
                   title=""
-                  className="flex text-base text-black transition-all duration-200 hover:text-yellow-600 focus:text-yellow-600"
+                  className="flex justify-center text-base text-black transition-all duration-200 hover:text-yellow-600 focus:text-yellow-600"
                 >
                   {" "}
                   <svg
@@ -67,7 +70,7 @@ const Footer = () => {
                 <a
                   href="#"
                   title=""
-                  className="flex text-base text-black transition-all duration-200 hover:text-yellow-600 focus:text-yellow-600"
+                  className="flex  justify-center text-base text-black transition-all duration-200 hover:text-yellow-600 focus:text-yellow-600"
                 >
                   {" "}
                   {/* <svg
@@ -101,12 +104,12 @@ const Footer = () => {
               </li> */}
             </ul>
 
-            <ul className="flex items-center space-x-3 mt-9">
+            <ul className="flex  justify-center  items-center space-x-3 m-9">
               <li>
                 <a
                   href="#"
                   title=""
-                  className="flex items-center justify-center text-white transition-all duration-200 bg-gray-800 rounded-full w-7 h-7 hover:bg-yellow-600 focus:bg-yellow-600"
+                  className="flex  items-center justify-center text-white transition-all duration-200 bg-gray-800 rounded-full w-7 h-7 hover:bg-yellow-600 focus:bg-yellow-600"
                 >
                   <svg
                     className="w-4 h-4"
@@ -230,99 +233,100 @@ const Footer = () => {
             </ul>
           </div> */}
 
-          <div>
-            <p className="text-sm font-semibold tracking-widest text-gray-400 uppercase">
+          <div className="">
+            <p className="text-sm font-semibold tracking-widest text-gray-400 uppercase ">
               Services.
             </p>
 
-            <ul className="mt-6 space-y-4">
+            <ul className="mt-6 space-y-4 ">
               <li>
-                <a
+                {/* <a
                   href="#"
                   title=""
-                  className="flex text-base text-black transition-all duration-200 hover:text-yellow-600 focus:text-yellow-600"
+                  className="flex justify-center text-base text-black transition-all duration-200 hover:text-yellow-600 focus:text-yellow-600"
                 >
                   {" "}
                   Digital Marketing{" "}
-                </a>
+                </a> */}
+                <Link
+                  to="/DigitalMarketing"
+                  className="flex justify-center text-base text-black transition-all duration-200 hover:text-yellow-600 focus:text-yellow-600"
+                  role="button"
+                >
+                  Digital Marketing
+                </Link>
               </li>
 
               <li>
-                <a
-                  href="#"
-                  title=""
-                  className="flex text-base text-black transition-all duration-200 hover:text-yellow-600 focus:text-yellow-600"
+                <Link
+                  to="/SocialMarketing"
+                  className="flex justify-center text-base text-black transition-all duration-200 hover:text-yellow-600 focus:text-yellow-600"
+                  role="button"
                 >
-                  {" "}
-                  Social Media marketing{" "}
-                </a>
+                  Social Media Marketing
+                </Link>
               </li>
 
               <li>
-                <a
-                  href="#"
-                  title=""
-                  className="flex text-base text-black transition-all duration-200 hover:text-yellow-600 focus:text-yellow-600"
+                <Link
+                  to="/PaidAdvertising"
+                  className="flex justify-center text-base text-black transition-all duration-200 hover:text-yellow-600 focus:text-yellow-600"
+                  role="button"
                 >
-                  {" "}
-                  Video Marketing Services{" "}
-                </a>
+                  Paid Advertising
+                </Link>
               </li>
 
               <li>
-                <a
-                  href="#"
-                  title=""
-                  className="flex text-base text-black transition-all duration-200 hover:text-yellow-600 focus:text-yellow-600"
+                <Link
+                  to="/SEO"
+                  className="flex justify-center text-base text-black transition-all duration-200 hover:text-yellow-600 focus:text-yellow-600"
+                  role="button"
                 >
-                  {" "}
-                  SEO Services{" "}
-                </a>
+                  Search Engine Optimisation
+                </Link>
               </li>
               <li>
-                <a
-                  href="#"
-                  title=""
-                  className="flex text-base text-black transition-all duration-200 hover:text-yellow-600 focus:text-yellow-600"
+                <Link
+                  to="/Website"
+                  className="flex justify-center text-base text-black transition-all duration-200 hover:text-yellow-600 focus:text-yellow-600"
+                  role="button"
                 >
-                  {" "}
-                  Paid Advertising{" "}
-                </a>
+                  Website and App Development
+                </Link>
               </li>
               <li>
-                <a
-                  href="#"
-                  title=""
-                  className="flex text-base text-black transition-all duration-200 hover:text-yellow-600 focus:text-yellow-600"
+                <Link
+                  to="/Branding"
+                  className="flex justify-center text-base text-black transition-all duration-200 hover:text-yellow-600 focus:text-yellow-600"
+                  role="button"
                 >
-                  {" "}
-                  Branding{" "}
-                </a>
+                  Branding
+                </Link>
               </li>
               <li>
-                <a
-                  href="#"
-                  title=""
-                  className="flex text-base text-black transition-all duration-200 hover:text-yellow-600 focus:text-yellow-600"
+                <Link
+                  to="/GraphicDesigning"
+                  className="flex justify-center text-base text-black transition-all duration-200 hover:text-yellow-600 focus:text-yellow-600"
+                  role="button"
                 >
-                  {" "}
-                  Website Design and Development{" "}
-                </a>
+                  Graphic Designing
+                </Link>
               </li>
               <li>
-                <a
-                  href="#"
-                  title=""
-                  className="flex text-base text-black transition-all duration-200 hover:text-yellow-600 focus:text-yellow-600"
+                <Link
+                  to="/VideoProduction"
+                  className="flex justify-center text-base text-black transition-all duration-200 hover:text-yellow-600 focus:text-yellow-600"
+                  role="button"
                 >
-                  {" "}
-                  Graphics designing{" "}
-                </a>
+                  Video Production
+                </Link>
               </li>
             </ul>
           </div>
 
-          <div className="col-span-2 md:col-span-1 lg:col-span-2 lg:pl-8">
+          {/* <div className="col-span-2 md:col-span-1 lg:col-span-2 lg:pl-8"> */}
+          <div className=" lg:pl-8">
             <p className="text-sm font-semibold tracking-widest text-gray-400 uppercase">
               Let's talk
             </p>
