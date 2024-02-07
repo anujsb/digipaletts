@@ -31,7 +31,7 @@ function App() {
               <Navbar />
               {/* <Hero /> */}
               <Info />
-              <Services />
+              {/* <Services /> */}
               <Blog />
               <Testimonial />
               <Faq />
