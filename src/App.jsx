@@ -36,7 +36,7 @@ function App() {
               <Testimonial />
               <Faq />
               <Contact />
-              <Footer />
+              {/* <Footer /> */}
               <Overlaymenu /> 
             </div>
           }
