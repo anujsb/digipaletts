@@ -28,15 +28,15 @@ function App() {
           path="/"
           element={
             <div className="justify-center items-center w-full">
-              {/* <Navbar /> */}
-              {/* <Hero /> */}
+              <Navbar />
+              <Hero />
               <Info />
-              {/* <Services /> */}
+              <Services />
               <Blog />
               <Testimonial />
               <Faq />
-              {/* <Contact /> */}
-              {/* <Footer /> */}
+              <Contact />
+              <Footer />
               <Overlaymenu /> 
             </div>
           }
