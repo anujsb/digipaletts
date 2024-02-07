@@ -29,7 +29,7 @@ function App() {
           element={
             <div className="justify-center items-center w-full">
               <Navbar />
-              <Hero />
+              {/* <Hero /> */}
               <Info />
               <Services />
               <Blog />
