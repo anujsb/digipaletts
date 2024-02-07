@@ -2,7 +2,7 @@ const Contact = () => {
   return (
     <>
       {/* <Menu /> */}
-      <section id="contact-us" className="bg-gray-50 dark:bg-white  ">
+      <section id="contact-us" className=" w-full bg-gray-50 dark:bg-white  ">
         <div className=" m-8 px-6 py-8 mx-auto grid grid-flow-row  sm:grid-flow-col grid-rows-2 md:grid-rows-1 sm:grid-cols-2">
           <div
             data-aos="zoom-out"

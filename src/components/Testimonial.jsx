@@ -2,7 +2,7 @@ import React from "react";
 
 const Testimonial = () => {
   return(
-    <section className="py-12 bg-gray-50 sm:py-16 lg:py-20 bg-info">
+    <section className="w-full py-12 bg-gray-50 sm:py-16 lg:py-20 bg-info">
       <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
         <div className="flex flex-col items-center">
           <div className="text-center">

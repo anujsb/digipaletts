@@ -6,7 +6,7 @@ const Info = () => {
   // const history = useHistory()
 
   return (
-    <div className="bg-info">
+    <div className="bg-info w-full">
       <section className=" bg-opacity-30 py-10 sm:py-0 lg:py-24 sm:p-0">
         <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8 ">
           <div className="items-center ">
