@@ -14,7 +14,7 @@ function Hero() {
     },
     {
       url: 'https://i.postimg.cc/xTB1wxvb/Whats-App-Image-2024-01-17-at-16-34-04-aeea2161.jpg',
-      text: 'Hand over your marketing needs to us, and watch your business grow',
+      text: 'Hand over your marketing needs to us, and watch your business grow.',
     },
   ];
 

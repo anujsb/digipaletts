@@ -27,7 +27,7 @@ function App() {
         <Route
           path="/"
           element={
-            <div className="justify-center items-center">
+            <div className="justify-center items-center w-full">
               <Navbar />
               <Hero />
               <Info />
