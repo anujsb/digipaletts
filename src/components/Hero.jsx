@@ -37,7 +37,7 @@ function Hero() {
   };
 
   return (
-    <div className='h-screen w-full lg:w-full md:w-full'>
+    <div className='h-screen w-full lg:w-full md:w-full object-cover '>
       <div
         style={{ backgroundImage: `url(${slides[currentIndex].url})` }}
         className='w-full h-full rounded-2xl bg-center bg-cover duration-1000 flex object-cover lg:w-full md:w-full'
