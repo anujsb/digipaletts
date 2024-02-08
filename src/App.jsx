@@ -37,7 +37,7 @@ function App() {
               <Faq />
               <Contact />
               <Footer />
-              <Overlaymenu /> 
+              <Overlaymenu />
             </div>
           }
         />
@@ -142,6 +142,71 @@ function App() {
             <div className="justify-center items-center">
               <Navbar />
               <VideoProduction />
+              <Contact />
+              <Footer />
+              <Overlaymenu />
+            </div>
+          }
+        />
+        <Route
+          path="/Hero"
+          element={
+            <div className="justify-center items-center">
+              <Hero />
+              <Contact />
+              <Footer />
+              <Overlaymenu />
+            </div>
+          }
+        />
+        <Route
+          path="/About"
+          element={
+            <div className="justify-center items-center">
+              <About />
+              <Contact />
+              <Footer />
+              <Overlaymenu />
+            </div>
+          }
+        />
+        <Route
+          path="/Services"
+          element={
+            <div className="justify-center items-center">
+              <Services />
+              <Contact />
+              <Footer />
+              <Overlaymenu />
+            </div>
+          }
+        />
+        <Route
+          path="/Blog"
+          element={
+            <div className="justify-center items-center">
+              <Blog />
+              <Contact />
+              <Footer />
+              <Overlaymenu />
+            </div>
+          }
+        />
+        <Route
+          path="/Faq"
+          element={
+            <div className="justify-center items-center">
+              <Faq />
+              <Contact />
+              <Footer />
+              <Overlaymenu />
+            </div>
+          }
+        />
+        <Route
+          path="/Contact"
+          element={
+            <div className="justify-center items-center">
               <Contact />
               <Footer />
               <Overlaymenu />

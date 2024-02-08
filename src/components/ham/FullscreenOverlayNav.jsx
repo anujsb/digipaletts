@@ -15,13 +15,14 @@ const FullscreenOverlayNav = () => {
       </label>
       <div className="wrapper">
         <ul>
-          <li><Link to="/Hero" role="button">Home</Link></li>
-          <li><Link to="/Info" role="button">About</Link></li>
+          
+          <li><Link to="/About" role="button">About</Link></li>
           <li><Link to="/Services" role="button">Services</Link></li>
           <li><Link to="/Blog" role="button">Blog</Link></li>
           {/* <li><Link to="/Testimonial" role="button">Testimonial</Link></li> */}
           <li><Link to="/Faq" role="button">FAQ</Link></li>
           <li><Link to="/Contact" role="button">Contact</Link></li>
+          <li><Link to="/" role="button" >Home</Link></li>
         </ul>
       </div>
     </div>
