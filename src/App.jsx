@@ -26,7 +26,7 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route
-          path="/"
+          path="/Home"
           element={
             <div className="justify-center items-center w-full">
               <Navbar />
@@ -149,7 +149,7 @@ function App() {
             </div>
           }
         />
-        <Route
+        {/* <Route
           path="/Hero"
           element={
             <div className="justify-center items-center">
@@ -159,7 +159,7 @@ function App() {
               <Overlaymenu />
             </div>
           }
-        />
+        /> */}
         <Route
           path="/About"
           element={
@@ -216,7 +216,7 @@ function App() {
         />
         {/* landing */}
         <Route
-          path="/Landing"
+          path="/"
           element={
             <div className="justify-center items-center">
               <Navbar/>

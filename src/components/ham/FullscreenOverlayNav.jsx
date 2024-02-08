@@ -54,14 +54,15 @@ const FullscreenOverlayNav = () => {
         </label>
         <div className="wrapper">
           <ul>
+            <li><Link to="/Home" role="button" onClick={closeOverlay}>Home</Link></li>
             <li><Link to="/About" role="button" onClick={closeOverlay}>About</Link></li>
             <li><Link to="/Services" role="button" onClick={closeOverlay}>Services</Link></li>
             <li><Link to="/Blog" role="button" onClick={closeOverlay}>Blog</Link></li>
             {/* <li><Link to="/Testimonial" role="button">Testimonial</Link></li> */}
             <li><Link to="/Faq" role="button" onClick={closeOverlay}>FAQ</Link></li>
             <li><Link to="/Contact" role="button" onClick={closeOverlay}>Contact</Link></li>
-            <li><Link to="/" role="button" onClick={closeOverlay}>Home</Link></li>
-            <li><Link to="/Landing" role="button" onClick={closeOverlay}>Landing Page</Link></li>
+            
+            {/* <li><Link to="/Landing" role="button" onClick={closeOverlay}>Landing Page</Link></li> */}
           </ul>
         </div>
       </div>
