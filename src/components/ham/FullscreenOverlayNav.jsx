@@ -61,6 +61,7 @@ const FullscreenOverlayNav = () => {
             <li><Link to="/Faq" role="button" onClick={closeOverlay}>FAQ</Link></li>
             <li><Link to="/Contact" role="button" onClick={closeOverlay}>Contact</Link></li>
             <li><Link to="/" role="button" onClick={closeOverlay}>Home</Link></li>
+            <li><Link to="/Landing" role="button" onClick={closeOverlay}>Landing Page</Link></li>
           </ul>
         </div>
       </div>

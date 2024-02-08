@@ -1,7 +1,7 @@
 // import React from "react";
 import "./Services.css";
 import { Link } from "react-router-dom";
-import DigitalMarketing from "./Services/DigitalMarketing";
+// import DigitalMarketing from "./Services/DigitalMarketing";
 
 const servicesData = [
   {

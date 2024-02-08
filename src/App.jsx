@@ -19,6 +19,7 @@ import GraphicDesigning from "./components/Services/GraphicDesigning";
 import VideoProduction from "./components/Services/VideoProduction";
 import Overlaymenu from "./components/ham/FullscreenOverlayNav";
 import About from "./components/Pages/About";
+import Land from "./components/Land";
 
 function App() {
   return (
@@ -210,6 +211,22 @@ function App() {
               <Contact />
               <Footer />
               <Overlaymenu />
+            </div>
+          }
+        />
+        {/* landing */}
+        <Route
+          path="/Landing"
+          element={
+            <div className="justify-center items-center">
+              <Navbar/>
+              <Land/>
+              <Services />
+              <Info />
+              <Testimonial/>
+              <Contact/>
+              <Footer />
+              {/* <Overlaymenu /> */}
             </div>
           }
         />

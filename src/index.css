@@ -497,7 +497,20 @@ button:focus-visible {
 
 
 
-
+.bg-land {
+  background-image: url('https://i.postimg.cc/4Ncg9Jcm/Whats-App-Image-2024-01-17-at-16-34-05-656c8949.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  /* width: 98.7vw; */
+  /* width: 100%;  */
+  /* height: 100vh; */
+  /* position: relative;  */
+  /* overflow: hidden; */
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* background: linear-gradient(0deg, rgb(255, 255, 255) 0%, rgb(224,184,35) 100%); */
+}
 
 .bg-info {
   background-image: url('/bgser1.png');
