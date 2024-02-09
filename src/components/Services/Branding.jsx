@@ -6,9 +6,9 @@ const DigitalMarketing = () => {
   }, []);
   return (
     <section className="bg-green-400 h-full text-black">
-      <div className=" mx-auto max-w-7xl ">
+      <div className=" mx-auto max-w-7xl t-20 ">
         <div className="grid items-center grid-cols-1 gap-12 lg:grid-cols-2">
-          <div className="px-4 sm:px-6 lg:px-8">
+          <div className="px-4 sm:px-6 lg:px-8 pt-20">
             {/* <p className="text-base font-semibold tracking-wider text-blue-600 uppercase">
               digipalettes
             </p> */}
