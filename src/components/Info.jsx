@@ -12,7 +12,7 @@ const Info = () => {
           <div className="items-center ">
             <div className="md:mx-20 md:my-10 sm:mx-20 sm:my-10 sm:p-0">
               {/* <p className="text-base font-semibold tracking-wider text-blue-600 uppercase">About Us</p> */}
-              <p className="text-5xl font-bold text-black  mt-4 md:px-10 sm:p-0 sm:my-5  lg:mt-8">
+              <p className="text-5xl font-bold text-black  m-4  sm:p-0 sm:my-5  lg:mt-8">
                 Welcome To Digi Palettes
               </p>
               <h2 className="text-2xl font-bold m-4 text-black">

@@ -11,7 +11,7 @@ const Footer = () => {
           {/* <div className="col-span-2 md:col-span-3 lg:col-span-2 lg:pr-8 text-black content-center"> */}
           <div className="lg:pr-8 text-black content-center">
             {/* <img src={logo} alt="logo" className="logo bg-black bg-opacity-50 border-stone-500 rounded-lg" /> */}
-            <p className="text-sm font-semibold tracking-widest text-gray-400 uppercase">
+            <p className="text-sm font-semibold tracking-widest text-yellow-500 uppercase">
               Contact Info
             </p>
             <ul className="mt-6 space-y-4 ">
@@ -234,7 +234,7 @@ const Footer = () => {
           </div> */}
 
           <div className="">
-            <p className="text-sm font-semibold tracking-widest text-gray-400 uppercase ">
+            <p className="text-sm font-semibold tracking-widest text-yellow-500 uppercase ">
               Services.
             </p>
 
@@ -327,7 +327,7 @@ const Footer = () => {
 
           {/* <div className="col-span-2 md:col-span-1 lg:col-span-2 lg:pl-8"> */}
           <div className=" lg:pl-8">
-            <p className="text-sm font-semibold tracking-widest text-gray-400 uppercase">
+            <p className="text-sm font-semibold tracking-widest text-yellow-500 uppercase">
               Let's talk
             </p>
 
@@ -351,6 +351,18 @@ const Footer = () => {
               >
                 Submit
               </button>
+              <div className="m-5">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30270.88017777569!2d73.7872241185826!3d18.489998636223515!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2bfe0a7394bbd%3A0xe33deeba66f35c6!2sMusic%20Galaxy%20India!5e0!3m2!1sen!2sin!4v1706268265228!5m2!1sen!2sin"
+                  // width="600"
+                  // height="450"
+                  className="rounded-2xl border-black w-full  "
+                  style={{ border: "0" }}
+                  allowFullScreen=""
+                  loading="lazy"
+                  referrerPolicy="no-referrer-when-downgrade"
+                ></iframe>
+              </div>
             </form>
           </div>
         </div>
@@ -358,7 +370,7 @@ const Footer = () => {
         <hr className="mt-16 mb-10 border-gray-200" />
 
         <p className="text-xs text-center text-gray-600 ">
-          © Copyright 2024, All Rights Reserved by digipaletts
+          © Copyright 2024, All Rights Reserved by DigiPalettes
         </p>
         {/* <p className="text-sm text-center text-gray-600">Website by :)</p> */}
       </div>

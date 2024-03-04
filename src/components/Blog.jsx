@@ -4,9 +4,9 @@ import { Link } from "react-router-dom";
 
 const Blog = () => {
   return (
-    <section className="py-12 bg-info sm:py-16 lg:py-20">
-      <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
-        <div className="max-w-md mx-auto text-black">
+    <section className="text-center mx-32 my-20">
+      <div className="">
+        <div className="  text-black">
           <h2 className="text-3xl font-bold text-gray-900 sm:text-6xl ">
             Read our blog
           </h2>

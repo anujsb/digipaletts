@@ -1,4 +1,7 @@
+import { Button } from "bootstrap";
 import React, { useEffect } from "react";
+import { Link } from "react-router-dom";
+
 
 const DigitalMarketing = () => {
   useEffect(() => {
@@ -9,7 +12,6 @@ const DigitalMarketing = () => {
       <div className=" mx-auto max-w-7xl ">
         <div className="grid items-center grid-cols-1 gap-12 lg:grid-cols-2">
           <div className="px-4 sm:px-6 lg:px-8 pt-20">
-            
             <h1 className="mt-4 text-4xl font-bold text-black lg:mt-8 sm:text-6xl xl:text-8xl">
               Digital Marketing{" "}
             </h1>
@@ -17,6 +19,13 @@ const DigitalMarketing = () => {
               Everyone is going digital, so should your business, because your
               clients are searching for you online.
             </p>
+            <Link
+              to="/Payment"
+              className="inline-flex items-center justify-center px-6 py-4 mt-3 font-semibold text-black transition-all duration-200 bg-white rounded-md hover:bg-slate-100 focus:bg-slate-200 relative group"
+              role="button"
+            >
+              Buy service
+            </Link>
           </div>
 
           <div>

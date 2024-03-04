@@ -20,6 +20,7 @@ import VideoProduction from "./components/Services/VideoProduction";
 import Overlaymenu from "./components/ham/FullscreenOverlayNav";
 import About from "./components/Pages/About";
 import Land from "./components/Land";
+import Payment from './components/Pages/Payment';
 
 function App() {
   return (
@@ -225,6 +226,17 @@ function App() {
               <Info />
               <Testimonial/>
               <Contact/>
+              <Footer />
+              <Overlaymenu />
+            </div>
+          }
+        />
+        <Route
+          path="/Payment"
+          element={
+            <div className="justify-center items-center">
+              <Payment />
+              <Contact />
               <Footer />
               <Overlaymenu />
             </div>
