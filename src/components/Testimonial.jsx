@@ -11,7 +11,7 @@ const Testimonial = () => {
           </div>
 
     
-          <div className="m-10 grid grid-cols-2">
+          <div className="m-10 grid md:grid-cols-2 lg:grid-cols-2 sm:grid-cols-1">
             {/* <div className="inset-x-1 inset-y-16 md:-inset-x-2 md:-inset-y-6">
               <div className="w-full h-full max-w-5xl mx-auto rounded-3xl opacity-30 blur-lg filter test-bg"></div>
             </div> */}
