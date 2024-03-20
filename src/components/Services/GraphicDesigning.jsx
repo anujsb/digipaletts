@@ -5,7 +5,7 @@ const GraphicDesigning = () => {
     window.scrollTo(0, 0);
   }, []);
   return (
-    <section className=" bg-stone-400 h-full text-black">
+    <section className=" bg-yellow-300 h-full text-black">
       <div className=" mx-auto max-w-7xl ">
         <div className="grid items-center grid-cols-1 gap-12 lg:grid-cols-2">
           <div className="px-4 sm:px-6 lg:px-8 pt-20">
@@ -21,7 +21,7 @@ const GraphicDesigning = () => {
           <div>
             <img
               className="w-full"
-              src="https://i.postimg.cc/VN6kKY9T/Whats-App-Image-2024-01-14-at-12-58-42-1e407447.jpg"
+              src="src\assets\graphic.jpg"
               alt=""
             />
           </div>

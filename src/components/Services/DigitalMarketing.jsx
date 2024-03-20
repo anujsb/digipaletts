@@ -31,7 +31,7 @@ const DigitalMarketing = () => {
           <div>
             <img
               className="w-full"
-              src="https://i.postimg.cc/85fHHgxT/dm.jpg"
+              src="src\assets\digimark.jpg"
               alt=""
             />
           </div>

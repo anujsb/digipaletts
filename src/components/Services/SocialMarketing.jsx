@@ -5,7 +5,7 @@ const SocialMarketing = () => {
     window.scrollTo(0, 0);
   }, []);
   return (
-    <section className="f-full bg-blue-300 h-full">
+    <section className="f-full bg-yellow-500 h-full">
       <div className=" mx-auto max-w-7xl ">
         <div className="grid items-center grid-cols-1 gap-12 lg:grid-cols-2">
           <div className="px-4 sm:px-6 lg:px-8 pt-20">
@@ -21,7 +21,7 @@ const SocialMarketing = () => {
           <div>
             <img
               className="w-full"
-              src="https://i.postimg.cc/RVbNHJx8/smm.jpg"
+              src="src\assets\smm.jpg"
               alt=""
             />
           </div>
