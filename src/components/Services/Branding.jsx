@@ -5,14 +5,14 @@ const DigitalMarketing = () => {
     window.scrollTo(0, 0);
   }, []);
   return (
-    <section className="bg-yellow-300 h-full text-black">
+    <section className="bg-info h-full text-black">
       <div className=" mx-auto max-w-7xl t-20 ">
         <div className="grid items-center grid-cols-1 gap-12 lg:grid-cols-2">
           <div className="px-4 sm:px-6 lg:px-8 pt-20">
             {/* <p className="text-base font-semibold tracking-wider text-blue-600 uppercase">
               digipalettes
             </p> */}
-            <h1 className="mt-4 text-4xl font-bold text-black lg:mt-8 sm:text-6xl xl:text-8xl">
+            <h1 className="mt-4 text-6xl font-bold text-black lg:mt-8 sm:text-6xl xl:text-8xl">
               Branding{" "}
             </h1>
             <p className="mt-4 text-base text-black lg:mt-8 sm:text-xl">
