@@ -1,4 +1,5 @@
 import React, { useEffect } from "react";
+import { Link } from "react-router-dom";
 
 const VideoProduction = () => {
   useEffect(() => {
@@ -18,6 +19,13 @@ const VideoProduction = () => {
               you Best way to present your Brand, Products or Services to
               prospectus through Video Marketing Services.
             </p>
+            <Link
+              to="/Payment"
+              className="inline-flex items-center justify-center px-6 py-4 mt-3 font-semibold text-black transition-all duration-200 bg-white rounded-md hover:bg-slate-100 focus:bg-slate-200 relative group"
+              role="button"
+            >
+              Buy service
+            </Link>
           </div>
 
           <div>
