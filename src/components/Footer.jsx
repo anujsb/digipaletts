@@ -369,6 +369,13 @@ const Footer = () => {
 
         <hr className="mt-16 mb-10 border-gray-200" />
 
+        <Link to="/tnc" className="m-2" role="button">
+          Terms and Conditions
+        </Link>
+        <Link to="/privacy" className="m-2" role="button">
+          Privacy Policy
+        </Link>
+
         <p className="text-xs text-center text-gray-600 ">
           © Copyright 2024, All Rights Reserved by DigiPalettes
         </p>

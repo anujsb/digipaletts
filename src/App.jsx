@@ -21,6 +21,8 @@ import Overlaymenu from "./components/ham/FullscreenOverlayNav";
 import About from "./components/Pages/About";
 import Land from "./components/Land";
 import Payment from './components/Pages/Payment';
+import Tnc from "./components/Tnc";
+import Privacy from "./components/Privacy";
 
 function App() {
   return (
@@ -236,6 +238,28 @@ function App() {
           element={
             <div className="justify-center items-center">
               <Payment />
+              <Contact />
+              <Footer />
+              <Overlaymenu />
+            </div>
+          }
+        />
+        <Route
+          path="/tnc"
+          element={
+            <div className="justify-center items-center">
+              <Tnc />
+              <Contact />
+              <Footer />
+              <Overlaymenu />
+            </div>
+          }
+        />
+        <Route
+          path="/privacy"
+          element={
+            <div className="justify-center items-center">
+              <Privacy />
               <Contact />
               <Footer />
               <Overlaymenu />
