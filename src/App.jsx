@@ -20,7 +20,7 @@ import VideoProduction from "./components/Services/VideoProduction";
 import Overlaymenu from "./components/ham/FullscreenOverlayNav";
 import About from "./components/Pages/About";
 import Land from "./components/Land";
-import Payment from './components/Pages/Payment';
+import Payment from "./components/Pages/Payment";
 import Tnc from "./components/Tnc";
 import Privacy from "./components/Privacy";
 
@@ -222,12 +222,12 @@ function App() {
           path="/"
           element={
             <div className="justify-center items-center">
-              <Navbar/>
-              <Land/>
+              <Navbar />
+              <Land />
               <Services />
               <Info />
-              <Testimonial/>
-              <Contact/>
+              <Testimonial />
+              <Contact />
               <Footer />
               <Overlaymenu />
             </div>
