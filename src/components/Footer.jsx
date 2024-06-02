@@ -375,6 +375,9 @@ const Footer = () => {
         <Link to="/privacy" className="m-2" role="button">
           Privacy Policy
         </Link>
+        <Link to="/cancellationrefundpolicy" className="m-2" role="button">
+        Cancellation and Refund Policy
+        </Link>
 
         <p className="text-xs text-center text-gray-600 ">
           © Copyright 2024, All Rights Reserved by DigiPalettes

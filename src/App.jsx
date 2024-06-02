@@ -23,6 +23,7 @@ import Land from "./components/Land";
 import Payment from "./components/Pages/Payment";
 import Tnc from "./components/Tnc";
 import Privacy from "./components/Privacy";
+import CancellationRefundPolicy from "./components/CancellationRefundPolicy";
 
 function App() {
   return (
@@ -260,6 +261,17 @@ function App() {
           element={
             <div className="justify-center items-center">
               <Privacy />
+              <Contact />
+              <Footer />
+              <Overlaymenu />
+            </div>
+          }
+        />
+        <Route
+          path="/cancellationrefundpolicy"
+          element={
+            <div className="justify-center items-center">
+              <CancellationRefundPolicy />
               <Contact />
               <Footer />
               <Overlaymenu />

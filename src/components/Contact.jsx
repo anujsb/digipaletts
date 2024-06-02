@@ -2,7 +2,10 @@ const Contact = () => {
   return (
     <>
       {/* <Menu /> */}
-      <section id="contact-us" className=" w-full lg:w-full md:w-full bg-gray-50 dark:bg-white  ">
+      <section
+        id="contact-us"
+        className=" w-full lg:w-full md:w-full bg-gray-50 dark:bg-white  "
+      >
         <div className=" m-8 px-6 py-8 mx-auto grid grid-flow-row  sm:grid-flow-col grid-rows-2 md:grid-rows-1 sm:grid-cols-2">
           <div
             data-aos="zoom-out"
@@ -156,7 +159,10 @@ const Contact = () => {
         </div>
         <div className=" m-8 px-6 py-8 mx-auto grid grid-flow-row  sm:grid-flow-col grid-rows-2 md:grid-rows-1 sm:grid-cols-2">
           <div>
-            <h1 className="text-black text-lg">Office No. 212, 2nd Floor, Kakade Plaza, Warje Jakat Naka, Karve Nagar, Pune, Maharashtra 411052</h1>
+            <h1 className="text-black text-lg">
+              Office No. 212, 2nd Floor, Kakade Plaza, Warje Jakat Naka, Karve
+              Nagar, Pune, Maharashtra 411052
+            </h1>
           </div>
           <div>
             <iframe
@@ -164,7 +170,7 @@ const Contact = () => {
               // width="600"
               // height="450"
               className="rounded-2xl border-black w-full  "
-              style={{border:"0"}}
+              style={{ border: "0" }}
               allowFullScreen=""
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
